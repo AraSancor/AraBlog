@@ -1,0 +1,23 @@
+body, html{
+background-image: url(../img/Ara.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+font-family: sans-serif;
+}
+html a{
+    text-decoration: none;
+}
+.Container{
+ 
+    width: 50vw;
+    display: block;
+    
+}
+.Container a{
+    display: block;
+    font-size: 3vw;
+    color: black;
+   padding: 3%;
+   text-align: right;
+   background-color: aquamarine;
+}
