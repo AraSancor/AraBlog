@@ -1,23 +1,69 @@
 body, html{
-background-image: url(../img/Ara.jpg);
-background-repeat: no-repeat;
-background-size: cover;
+background-color: black;
 font-family: sans-serif;
+color: aliceblue;
 }
 html a{
     text-decoration: none;
 }
-.Container{
- 
-    width: 50vw;
-    display: block;
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    'header'
+    'main '
+    'footer';
+    grid-gap: 10px;
+   padding: 10px;
+  }
+.item1 { grid-area: header; 
+    grid-gap: 5%;
+    display: flex;
     
+   
 }
-.Container a{
-    display: block;
-    font-size: 3vw;
-    color: black;
-   padding: 3%;
-   text-align: right;
-   background-color: aquamarine;
+.item1 img{
+    width: 5vw;
+    border-radius: 50%;
+   
 }
+.item1 h1{
+   
+    margin-left: 50%;
+}
+.item3 { 
+    grid-area: main; 
+    background-image: url(../img/laptop-3214756_960_720.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 350%;
+   
+}
+.item3div{
+    margin: 1% 0 3% 10%;
+    display: flex;
+    grid-gap: 8%;
+} 
+
+.item3 img{
+    width: 14vw;
+     height: 10vw;
+     cursor: pointer;
+}
+.item3 img:hover{
+    width: 15vw;
+    height: 11vw;
+     
+}
+
+.item5 { grid-area: footer;
+    margin-left: 70%;
+ }
+
+ .item5 p { 
+    margin-left: 50%;
+ }
+
+
+
