@@ -68,12 +68,13 @@ html a {
         width: 30vw;
         height: 26vw;
         cursor: pointer;  
-        margin-left: 90%;
+        margin-left: 110%;
         
            }
 
     .item3 img:hover {
-      
+        width: 31vw;
+        height: 27vw;
       margin-left: 33%;
     }
     .item5 {
