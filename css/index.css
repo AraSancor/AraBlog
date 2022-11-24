@@ -42,7 +42,7 @@ html a {
 
 }
 
-@media only screen and (min-width: 150px) and (max-width: 1200px) {
+@media only screen and (min-width: 150px) and (max-width: 800px) {
     .item1 {
         grid-gap: 3%;
     }
@@ -86,7 +86,7 @@ html a {
     }
 }
 
-@media only screen and (min-width: 1201px) and (max-width: 3800px) {
+@media only screen and (min-width: 801px) and (max-width: 3800px) {
     .item1 {
         grid-gap: 3%;
     }
