@@ -43,6 +43,9 @@ html a {
 }
 
 @media only screen and (min-width: 150px) and (max-width: 800px) {
+    body{
+        background-color: rgb(10, 10, 20);
+    }
     .item1 {
         grid-gap: 3%;
     }
@@ -50,10 +53,11 @@ html a {
     .item1 img {
         width: 5vw;
         border-radius: 50%;
+        margin: 2%;
     }
 
     .item1 h1 {
-        margin-left: 1%;
+        margin-left: 53%;
     }
     .item3 {
         grid-area: main;
@@ -78,12 +82,10 @@ html a {
       margin-left: 33%;
     }
     .item5 {
-        margin-left: 70%;
+        margin-left: 53%;
+       
     }
 
-    .item5 p {
-        margin-left: 50%;
-    }
 }
 
 @media only screen and (min-width: 801px) and (max-width: 3800px) {
@@ -92,7 +94,7 @@ html a {
     }
 
     .item1 img {
-        width: 5vw;
+        width: 3vw;
         border-radius: 50%;
 
     }
@@ -102,24 +104,25 @@ html a {
         margin-left: 60%;
     }
     .item3 {
-        grid-area: main;
-        background-image: url(../img/laptop-3214756_960_720.png);
+      
+        background-image: url(../img/home-office.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        width: 100%;
-        height: 350%;
-    
+     
+        
     }
   
     .item3 img {
         width: 14vw;
         height: 10vw;
         cursor: pointer;
+        margin-bottom: 200%;
     }
 
     .item3 img:hover {
-        width: 15vw;
-        height: 11vw;
+        width: 18vw;
+        height: 14vw;
+
 
     }
 
