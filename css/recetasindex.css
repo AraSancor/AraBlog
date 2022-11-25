@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+
+    font-family: sans-serif;
+
+}
+
+html a {
+    text-decoration: none;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'header'
+        'main '
+        'footer';
+   
+}
+
+.header {
+    grid-area: header;
+background-color: rgb(31, 30, 30);
+color: aliceblue;
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+.header a{
+    color: aliceblue;
+
+}
+.main {
+    grid-area: main;
+
+
+}
+
+.main a {
+    display: block;
+}
+
+.footer {
+    grid-area: footer;
+
+background-color: rgb(31, 30, 30);
+color: aliceblue;
+    display: flex;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 800px) {
+
+    .header img {
+        width: 5vw;
+        border-radius: 50%;
+        margin: 2%;
+    }
+
+    .header a {
+        margin-left: 53%;
+    }
+    .main {
+
+        background-image: url(../img/kitchenmovil.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .main a {
+        color: white;
+        margin: 3%;
+        font-size: 6vw;
+        padding-left: 10%;
+        margin-bottom: 10%;
+        font-weight: 400;
+    }
+    .footer p{
+        margin-left: 33%;
+        padding: 1%;
+        font-size: 3vw;
+    }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 3800px) {
+    .header img {
+        width: 3vw;
+        border-radius: 50%;
+
+    }
+
+    .header a {
+
+        margin-left: 80%;
+    }
+
+    .main {
+
+        background-image: url(../img/cocina.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .main a {
+        color: black;
+        margin: 3%;
+        font-size: 3vw;
+        font-family: comic;
+        padding-left: 10%;
+    }
+    .footer p{
+        margin-left: 70%;
+        padding: 1%;
+        font-size: 2vw;
+    }
+}
