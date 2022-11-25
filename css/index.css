@@ -20,8 +20,7 @@ html a {
         'header'
         'main '
         'footer';
-    grid-gap: 10px;
-    padding: 10px;
+ 
 }
 
 .item1 {
@@ -33,13 +32,10 @@ html a {
 
 .item3 {
     grid-area: main;
-    
-
-}
+    }
 
 .item5 {
     grid-area: footer;
-
 }
 
 @media only screen and (min-width: 150px) and (max-width: 800px) {
@@ -89,8 +85,7 @@ html a {
 
 @media only screen and (min-width: 801px) and (max-width: 3800px) {
      body{
-      
-        background-color: rgb(10, 10, 20);
+              background-color: black;
     }
     .item1 {
         grid-gap: 3%;
@@ -104,7 +99,7 @@ html a {
 
     .item1 h1 {
 
-        margin-left: 60%;
+        margin-left: 80%;
     }
     .item3 {
       
@@ -125,7 +120,7 @@ html a {
     .item3 img:hover {
         width: 18vw;
         height: 14vw;
-
+margin: 0;
 
     }
 
@@ -135,11 +130,10 @@ html a {
         grid-gap: 8%;
     }
 
-    .item5 {
-        margin-left: 70%;
-    }
+   
 
     .item5 p {
-        margin-left: 50%;
+        margin-left: 70%;
+        font-size: 2vw;
     }
 }
