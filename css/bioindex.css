@@ -20,14 +20,16 @@ html a {
         'header'
         'main '
         'footer';
-    grid-gap: 10px;
-    padding: 10px;
+   
 }
 
 .header {
     grid-area: header;
-
-    display: flex;
+    background-color: #3B44F6;
+    color: #F7EC09;
+    grid-area: footer;
+    text-align: center;
+ 
 
 }
 
@@ -39,6 +41,10 @@ html a {
 
 .footer {
     grid-area: footer;
+    background-color: #3B44F6;
+    color: #F7EC09;
+    grid-area: footer;
+    text-align: center;
 
 }
 
@@ -46,5 +52,26 @@ html a {
 }
 
 @media only screen and (min-width: 801px) and (max-width: 3800px) {
-    
+    .header img{
+        width: 5vw;
+        border-radius: 50%;
+    }
+   .main{
+    background-image: url(../img/earth.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+   height: 33vw;
+   }
+   .main a{
+    display: block;
+    background-color: #3B44F6;
+    color: #F7EC09;
+    width: 50vw;
+    margin: 5% 5% 3% 20%;
+    font-size: 3vw;
+    padding-left: 10%;
+    border-radius: 10px;
+   }
+
 }
