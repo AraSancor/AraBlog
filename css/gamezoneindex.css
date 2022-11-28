@@ -20,8 +20,7 @@ html a {
         'header'
         'main '
         'footer';
-    grid-gap: 10px;
-    padding: 10px;
+   
 }
 
 .header {
@@ -43,8 +42,22 @@ html a {
 }
 
 @media only screen and (min-width: 150px) and (max-width: 800px) {
+    
+    .main{
+        background-image: url(../img/smile-7424843_960_720.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100vw;
+    height: 100vw;
+       }
 }
 
 @media only screen and (min-width: 801px) and (max-width: 3800px) {
-    
+    .main{
+        background-image: url(../img/controlvg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100vw;
+    height: 100vw;
+       }
 }

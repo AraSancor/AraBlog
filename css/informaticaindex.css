@@ -43,8 +43,26 @@ html a {
 }
 
 @media only screen and (min-width: 150px) and (max-width: 800px) {
+    .main{
+    
+        background-image: url(../img/codeLEG.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    width: 100vw;
+    height: 100vw;
+}
 }
 
 @media only screen and (min-width: 801px) and (max-width: 3800px) {
+    body{
+        color: aliceblue;
+    }
+    .main{
     
+            background-image: url(../img/3key.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        width: 90vw;
+        height: 45vw;
+    }
 }
