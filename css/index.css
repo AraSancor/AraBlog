@@ -18,8 +18,8 @@ html a {
     display: grid;
     grid-template-areas:
         'header'
+        'main ' 
         'slide'
-        'main '
         'footer';
 
 }
@@ -95,7 +95,7 @@ html a {
     .item5 {
         background-color: black;
         color: aliceblue;
-        padding-left: 11%;
+        padding-left: 33%;
 
     }
 
@@ -169,11 +169,7 @@ img {
 }
 
 /* Slideshow container */
-.slideshow-container {
-padding-left: 30%;
-  width: auto;
-    margin: auto;
-}
+
 
 /* Caption text */
 .text {
