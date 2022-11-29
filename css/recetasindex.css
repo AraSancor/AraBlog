@@ -70,6 +70,17 @@ color: aliceblue;
     .header a {
         margin-left: 53%;
     }
+    .slide{
+        background-color: #1d1c1c;
+    }
+    .slideshow-container {
+        width: 100vw;
+    }
+    .slideshow-container img {
+    width: 100vw; 
+     height: 33vw;
+         
+      }
     .main {
 
         background-image: url(../img/spice.jpg);
