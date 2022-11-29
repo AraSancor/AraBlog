@@ -113,9 +113,18 @@ color: aliceblue;
 
         margin-left: 80%;
     }
+    .slideshow-container {
+        width: 39vw;
+    }
+    .slideshow-container img {
+     height: 40vw;
+        width: 39vw;
+    
+         
+      }
 
     .main {
-
+        width: 60vw;
         background-image: url(../img/herbs.jpg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -123,7 +132,7 @@ color: aliceblue;
 
     .main a {
         color: whitesmoke;
-        margin: 2% 10% 1% 5%;
+        margin: 2% 10% 1% 33%;
       padding: 1%;
         font-size: 2vw;
         font-family: comic;
@@ -148,10 +157,9 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  width: 33vw;
-height: 33vw;
+
   position: relative;
-  margin: 3%;
+ 
   
 }
 
