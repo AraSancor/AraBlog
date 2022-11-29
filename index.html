@@ -16,61 +16,61 @@
             <div class="slideshow-container">
 
                 <div class="mySlides fade">
-                  <div class="numbertext"></div>
-                  <img src="./img/code123.jpg" style="width:100%">
-                  <div class="text"></div>
-                </div>
-                
-                <div class="mySlides fade">
-                  <div class="numbertext"></div>
-                  <img src="./img/game-console.jpg" style="width:100%">
-                  <div class="text"></div>
-                </div>
-                
-                <div class="mySlides fade">
-                  <div class="numbertext"></div>
-                  <img src="./img/hands.jpg" style="width:100%">
-                  <div class="text"></div>
+                    <div class="numbertext">Codigo</div>
+                    <img src="./img/code123.jpg" style="width:100%">
+                    <div class="text"></div>
                 </div>
 
                 <div class="mySlides fade">
-                    <div class="numbertext"></div>
+                    <div class="numbertext">Gamezone</div>
+                    <img src="./img/game-console.jpg" style="width:100%">
+                    <div class="text"></div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">Jardineria</div>
+                    <img src="./img/hands.jpg" style="width:100%">
+                    <div class="text"></div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">Recetas</div>
                     <img src="./img/teapots.jpg" style="width:100%">
                     <div class="text"></div>
-                  </div>
-                
                 </div>
-                <br>
-                
-                <div style="text-align:center">
-                  <span class="dot"></span> 
-                  <span class="dot"></span> 
-                  <span class="dot"></span> 
-                  <span class="dot"></span> 
-                </div>
-                
-                <script>
+
+            </div>
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+
+            <script>
                 let slideIndex = 0;
                 showSlides();
-                
+
                 function showSlides() {
-                  let i;
-                  let slides = document.getElementsByClassName("mySlides");
-                  let dots = document.getElementsByClassName("dot");
-                  for (i = 0; i < slides.length; i++) {
-                    slides[i].style.display = "none";  
-                  }
-                  slideIndex++;
-                  if (slideIndex > slides.length) {slideIndex = 1}    
-                  for (i = 0; i < dots.length; i++) {
-                    dots[i].className = dots[i].className.replace(" active", "");
-                  }
-                  slides[slideIndex-1].style.display = "block";  
-                  dots[slideIndex-1].className += " active";
-                  setTimeout(showSlides, 2000); // Change image every 2 seconds
+                    let i;
+                    let slides = document.getElementsByClassName("mySlides");
+                    let dots = document.getElementsByClassName("dot");
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+                    slideIndex++;
+                    if (slideIndex > slides.length) { slideIndex = 1 }
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex - 1].style.display = "block";
+                    dots[slideIndex - 1].className += " active";
+                    setTimeout(showSlides, 2000); // Change image every 2 seconds
                 }
-                </script>
-                  
+            </script>
+
         </div>
 
         <div class="item1">
@@ -81,11 +81,24 @@
 
         <div class="item3">
             <div class="item3div">
-          
-               <a href="./html/Gamezone.html" target="_blank"><img src="./img/gamepad.webp" alt="game"></a>
-               <a href="./html/Jardineria.html" target="_blank"><img src="./img/bio.png" alt="bio"></a>
-               <a href="./html/recetas.html" target="_blank"><img src="./img/chefs-hat.webp" alt="chef"></a>   
-                 <a href="./html/Informatica.html" target="_blank"><img src="./img/code-geek.png" alt="inf"></a>
+                <div> <p>Gamezone</p>
+                    <div><a href="./html/Gamezone.html" target="_blank"><img src="./img/gamepad.webp" alt="game"></a>
+                    </div>
+                </div>
+
+                <div> <p>Jardineria</p>
+                    <div> <a href="./html/Jardineria.html" target="_blank"><img src="./img/bio.png" alt="bio"></a></div>
+                </div>
+
+                <div> <p>Recetas</p>
+                    <div><a href="./html/recetas.html" target="_blank"><img src="./img/pars.png" alt="chef"></a></div>
+                </div>
+
+                <div><p>Informatica</p>
+                    <div><a href="./html/Informatica.html" target="_blank"><img src="./img/code-geek.png" alt="inf"></a></div>
+                    </div>
+                </div>
+
             </div>
         </div>
 

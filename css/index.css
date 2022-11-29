@@ -77,6 +77,11 @@ html a {
         background-color: aliceblue;
         margin-bottom: 5%;
     }
+    .item3 p{
+        margin-left: 110%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 5vw;
+    }
 
     .item3 img {
         width: 30vw;
