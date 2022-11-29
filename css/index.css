@@ -131,7 +131,10 @@ html a {
         background-image: url(../img/home-office.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-
+    }
+    .item3 p {
+        margin-left: 8%;
+        font-size: 2vw;
     }
 
     .item3 img {
