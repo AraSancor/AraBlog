@@ -76,17 +76,23 @@ html {
     }
 
     .aside {
-        margin-left: 10%;
+    
         padding: 2%;
        
     }
-    .aside h2 {
-      font-size: 4.5vw;
-    
+    .aside p{
+       background-color: #222831;
+       color: #EEEEEE;
+      width: 90vw;
+      padding: 2%;
+       
+    }
+    .aside h2, h3 {
+      
+      margin-left: 7%;
     }
 
     .aside ul {
-        margin: 5%;
         padding: 5%;
         margin-left: 8%;
     }
@@ -94,6 +100,7 @@ html {
     .aside li {
         font-size: 3.5vw;
         grid-gap: 5%;
+        margin-left: 8%;
     }
 
     .main {
