@@ -5,7 +5,7 @@
 
 body,
 html {
-   
+
     font-family: sans-serif;
     color: aliceblue;
 }
@@ -17,10 +17,17 @@ html a {
 .grid-container {
     display: grid;
     grid-template-areas:
+        
         'header'
+        'slide'
         'main '
         'footer';
- 
+
+}
+
+.slide {
+    grid-area: slide;
+    background-color: black;
 }
 
 .item1 {
@@ -32,20 +39,23 @@ html a {
 
 .item3 {
     grid-area: main;
-    }
+}
 
 .item5 {
     grid-area: footer;
 }
 
+
 @media only screen and (min-width: 150px) and (max-width: 800px) {
-    
-    body{color: black;}
+
+    body {
+        color: black;
+    }
+
     .item1 {
         background-color: black;
         color: aliceblue;
-        margin-top: 30%;
-        margin-bottom: 5%;
+       
         grid-gap: 3%;
     }
 
@@ -58,42 +68,45 @@ html a {
     .item1 h1 {
         margin-left: 33%;
     }
+
     .item3 {
-      
+
         background-image: url(../img/smartphone.webp);
         background-repeat: no-repeat;
         background-size: cover;
         width: 51vw;
-       background-color: aliceblue;
-       margin-bottom: 5%;
-         }
-  
+        background-color: aliceblue;
+        margin-bottom: 5%;
+    }
+
     .item3 img {
         width: 30vw;
         height: 26vw;
-        cursor: pointer;  
+        cursor: pointer;
         margin-left: 110%;
-        
-           }
+
+    }
 
     .item3 img:hover {
         width: 32vw;
         height: 28vw;
-      
+
     }
+
     .item5 {
         background-color: black;
         color: aliceblue;
         padding-left: 11%;
-       
+
     }
 
 }
 
 @media only screen and (min-width: 801px) and (max-width: 3800px) {
-     body{
-              background-color: black;
+    body {
+        background-color: black;
     }
+
     .item1 {
         grid-gap: 3%;
     }
@@ -108,15 +121,16 @@ html a {
 
         margin-left: 80%;
     }
+
     .item3 {
-      
+
         background-image: url(../img/home-office.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-     
-        
+
+
     }
-  
+
     .item3 img {
         width: 14vw;
         height: 10vw;
@@ -127,7 +141,7 @@ html a {
     .item3 img:hover {
         width: 18vw;
         height: 14vw;
-margin: 0;
+        margin: 0;
 
     }
 
@@ -137,10 +151,92 @@ margin: 0;
         grid-gap: 8%;
     }
 
-   
+
 
     .item5 p {
         margin-left: 70%;
         font-size: 2vw;
+    }
+}
+
+/* slide */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+}
+
+.mySlides {
+    display: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    width: 40vw;
+    height: 33vw;
+    margin: auto;
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .text {
+        font-size: 11px
     }
 }
