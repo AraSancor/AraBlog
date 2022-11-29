@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    background-color: #EEEEEE;
+    font-family: sans-serif;
+    color: #222831;
+}
+.header{
+    grid-area: header;
+    background-color: #222831;
+    color: #EEEEEE;
+}
+
+
+.head {
+    color: #393E46;
+    background-color: #FFD369;
+    grid-area: head;
+   
+}
+
+.aside {
+    grid-area: aside;
+}
+
+.main {
+    grid-area: main;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: #191A19;
+    color: #D8E9A8;
+}
+
+@media only screen and (min-width: 50px) and (max-width: 800px) {
+    img{
+        width: 50vw;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+        'header'
+            'head'
+             'aside'
+            'main '
+            'footer';
+    
+    }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 3800px) {
+    
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+        'header header'
+            'head head'
+            'aside main'
+            'footer footer';
+            }
+            .header{
+                font-size: 2vw;
+                padding-left: 88%;
+            }
+        .head{
+            width: 88vw;
+            display: flex;
+           
+            margin: 0 5% 2% 5%;
+        }
+        .head img{
+            border-radius: 50%;
+        width: 20vw;
+    }
+    .head h1{
+        padding-left: 8%;
+        font-size: 3vw;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .aside{
+        margin-left: 20%;
+        width: 33%;
+        padding: 5%;
+    }
+    .aside ul{
+        margin: 5%;
+        padding: 5%; 
+    }
+
+    .aside li{
+        grid-gap: 5%;
+    }
+    .main{
+        width: 50vw;
+        text-align: justify;
+        margin: 3%;
+        
+    }
+    .main p{
+padding: 5%;
+    }
+}
