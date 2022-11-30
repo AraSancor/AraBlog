@@ -60,15 +60,24 @@ color: aliceblue;
             'footer';
        
     }
+    .header{
+       grid-gap: 5%; 
+    }
 
     .header img {
         width: 5vw;
         border-radius: 50%;
         margin: 2%;
+        
     }
 
-    .header a {
-        margin-left: 53%;
+    .header h1 {
+        margin-left: 22%;
+    }
+    .header h2 {
+    color: red;
+    padding: 5%;
+ 
     }
     .slide{
         background-color: #1d1c1c;

@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    padding: 5%;
+    text-align: justify;
+    background-color: #EEEEEE;
+    font-family: sans-serif;
+    color: #222831;
+}
+html img{
+    width: 50vw;
+}
