@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jardineria</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/bioindex.css">
     
    
@@ -19,6 +20,43 @@
     </div>
 
 </div>
+
+<div class="menu">
+    <div class="topnav" id="myTopnav">
+        <a href="../index.html" class="active"target="_blank">Inicio</a>
+       
+       
+        <a href="../html/Jardineria.html" target="_blank">Jardineria</a> 
+        <a href="../html/Informatica.html"target="_blank">Informatica</a>
+        <div class="dropdown">
+          <button class="dropbtn" target="_blank">Otros 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="https://arasancor.github.io/Porfolio-Ara/index.html" target="_blank">Porfolio</a>
+            <a href="#" target="_blank">Link 2</a>
+            <a href="#" target="_blank">Link 3</a>
+          </div>
+        </div> 
+         <a href="../html/Gamezone.html"target="_blank">Gamezone</a>
+         <a href="../html/recetas.html"target="_blank">Recetas</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+      
+      
+      
+      <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+</div>
+
 <div class="main"> 
     <a href="../html/jar/cultivoNopla.html" target="_blank" >Todo sobre el nopal</a>
     <a href="../html/jar/Inviernoplantas.html" target="_blank" >Cuidado de plantas en invierno</a>

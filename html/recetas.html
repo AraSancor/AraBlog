@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Recetas</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="../css/recetasindex.css">
 </head>
 
@@ -20,11 +21,49 @@
       </div>
 
       <div>
-        <a href="../index.html" target="_blank"><h2>Volver al inicio</h2></a>
+        <a href="../index.html" target="_blank"><h2>Inicio</h2></a>
       </div>
       <div><img src="../img/flecha.png" alt="flecha"> </div>
       
     </div>
+
+
+<div class="menu">
+  <div class="topnav" id="myTopnav">
+    <a href="../index.html" class="active"target="_blank">Inicio</a>
+   
+   
+    <a href="../html/Jardineria.html" target="_blank">Jardineria</a> 
+    <a href="../html/Informatica.html"target="_blank">Informatica</a>
+    <div class="dropdown">
+      <button class="dropbtn" target="_blank">Otros 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="https://arasancor.github.io/Porfolio-Ara/index.html" target="_blank">Porfolio</a>
+        <a href="#" target="_blank">Link 2</a>
+        <a href="#" target="_blank">Link 3</a>
+      </div>
+    </div> 
+     <a href="../html/Gamezone.html"target="_blank">Gamezone</a>
+    
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+  
+  
+  
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
+</div>
+
 
     <div class="slide">
       <div class="slideshow-container">

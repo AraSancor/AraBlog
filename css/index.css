@@ -31,7 +31,9 @@ html a {
 .item3 {
     grid-area: main;
 }
-
+.item3 {
+    grid-area: main;
+}
 .item5 {
     grid-area: footer;
 }
