@@ -17,27 +17,31 @@ html a {
 .grid-container {
     display: grid;
     grid-template-areas:
-'menu'
+        'menu'
         'header'
         'main '
         'footer';
-   
+
+}
+
+.menu {
+    grid-area: menu;
 }
 
 .header {
     grid-area: header;
-    }
+}
 
 .main {
     grid-area: main;
-    
+
 
 }
 
 .footer {
- 
+
     grid-area: footer;
-  
+
 
 }
 
@@ -45,23 +49,27 @@ html a {
     .topnav {
         padding: 0 3% 0 0;
     }
-.header{
-    padding: 3%;
-    margin-left: 33%;
-    display: flex;
-}
-    .header img{
+
+    .header {
+        padding: 3%;
+        margin-left: 33%;
+        display: flex;
+    }
+
+    .header img {
         width: 5vw;
         border-radius: 50%;
     }
-    .main{
+
+    .main {
         background-image: url(../img/earth2.png);
         background-repeat: no-repeat;
         background-size: cover;
         width: 100vw;
-       height: 100vw;
-       }
-       .main a{
+        height: 100vw;
+    }
+
+    .main a {
         display: block;
         color: #fff;
         background-color: #000;
@@ -71,11 +79,12 @@ html a {
         padding-left: 10%;
         border-radius: 5px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-       }
-       .footer{
+    }
+
+    .footer {
         padding: 3%;
         margin-left: 11%;
-        
+
     }
 }
 
@@ -84,43 +93,48 @@ html a {
 
         padding-left: 30%;
     }
+
     .header {
         padding: 3%;
         margin-left: 60%;
-       display: flex;
+        display: flex;
         color: #4E9F3D;
-       
-     
-    
+
+
+
     }
-    .header img{
+
+    .header img {
         width: 5vw;
         border-radius: 50%;
     }
-   .main{
-    background-image: url(../img/earth.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100vw;
-   height: 33vw;
-   }
-   .main a{
-    display: block;
-    background-color: #4E9F3D;
-    color: black;
-    width: 50vw;
-    margin: 5% 5% 3% 20%;
-    font-size: 3vw;
-    padding-left: 10%;
-    border-radius: 10px;
-   }
-   .footer {
-    font-size: 2vw;
-    color: #4E9F3D;
-    grid-area: footer;
-    text-align: center;
 
-}
+    .main {
+        background-image: url(../img/earth.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100vw;
+        height: 33vw;
+    }
+
+    .main a {
+        display: block;
+        background-color: #4E9F3D;
+        color: black;
+        width: 50vw;
+        margin: 5% 5% 3% 20%;
+        font-size: 3vw;
+        padding-left: 10%;
+        border-radius: 10px;
+    }
+
+    .footer {
+        font-size: 2vw;
+        color: #4E9F3D;
+        grid-area: footer;
+        text-align: center;
+
+    }
 
 }
 
