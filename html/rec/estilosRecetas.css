@@ -87,7 +87,7 @@ html a {
     }
 
     .header h2 {
-        margin-left: 11%;
+        margin-left: 70%;
     }
 
     .header h3 {
@@ -173,8 +173,7 @@ html a {
             'menu menu'
             'header header'
             'esp head'
-           
-            'aside main'
+           'aside main'
             'footer footer';
     }
 
@@ -189,15 +188,16 @@ html a {
     }
 
     .head {
-        width: 50vw;
+        width: 60vw;
         display: flex;
-        margin: 0 5% 0 5%;
+        margin:  0 0 0 5%;
     }
 
     .head img {
         height: 11vw;
         width: 15vw;
-        margin: 0 10% 0 0;
+        margin: 0 10% 0 3%;
+        
     }
 
     .head h1 {
@@ -209,7 +209,8 @@ html a {
     .esp p {
         background-color: #222831;
         color: #EEEEEE;
-        padding: 0.5% 0 0.5% 58%;
+        margin-top: 5%;
+        padding: 0.5% 0 0.5% 11%;
 
 
     }

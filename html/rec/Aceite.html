@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AceiteHabanero</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./estilosRecetas.css">
 </head>
 
@@ -13,10 +14,50 @@
 
 
     <div class="grid-container">
+        <div class="menu">
+            <div class="topnav" id="myTopnav">
+               
+   
+            <a href="../../index.html" target="_blank">Inicio</a>
+               <div class="dropdown">
+                  <button class="dropbtn" target="_blank">Recetas
+                     <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+               
+                     <a href="./Aguachile.html" target="_blank">Aguachile</a>
+                     <a href="./chilaquiles.html" target="_blank">Chilaquiles</a>
+                     <a href="./Guacamole.html" target="_blank">Guacamole</a>
+                     <a href="./huaraches.html" target="_blank">Huaraches</a>
+                     <a href="./lomoRelleno.html" target="_blank">Lomo</a>
+                     <a href="./Tiempos.html" target="_blank">Tiempos</a>
+                  </div>
+               </div>
+   
+     <a href="../Jardineria.html" target="_blank">Jardineria</a>
+               <a href="../Gamezone.html" target="_blank">Gamezone</a>
+               
+               <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
+   
+   
+   
+            <script>
+               function myFunction() {
+                  var x = document.getElementById("myTopnav");
+                  if (x.className === "topnav") {
+                     x.className += " responsive";
+                  } else {
+                     x.className = "topnav";
+                  }
+               }
+            </script>
+         </div>
+
         <div class="header">Ara Blog</div>
 
         <div class="head">
-            <h1>Aceite Habanero-Queso</h1>
+            <h1>Aceite Habanero y Queso</h1>
             <img src="./imgRecetas/quesoHabanero.jpg" alt="">
 
 
@@ -27,7 +68,7 @@
                 <p>Tiempo de preparación:<i><b> 1 horas aproximadamente</p></b></i>
             </div>
             <div>
-                <p>Dificultad:<i><b> Media</p></b></i>
+                <p>Dificultad:<i><b> Baja</p></b></i>
             </div>
         </div>
         <div class="aside">
@@ -36,16 +77,13 @@
             <h2>Ingredientes</h2>
 
             <ul>
-                <li>Queso chédar curado 100 grs aprx
-
-
-
-                <li> Habanero 3 unidades </li>
+                <li>Queso chédar curado 100 grs </li>
+                <li>Habanero 3 unidades </li>
                 <li>Aceite de oliva 500 ml aprox</li>
-                <li> Ajos 6 dientes </li>
+                <li>Ajos 6 dientes </li>
                 <li>Laurel 2 hojas</li>
                 <li>Pimienta entera 8bolas</li>
-                </li>
+                
 
             </ul>
         </div>

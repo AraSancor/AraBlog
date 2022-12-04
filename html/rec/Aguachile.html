@@ -6,16 +6,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aguachile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./estilosRecetas.css">
 </head>
 
 <body>
     <div class="grid-container">
-        <div class="header">Ara Blog</div>
+        <div class="menu">
+            <div class="topnav" id="myTopnav">
+               
+   
+            <a href="../../index.html" target="_blank">Inicio</a>
+               <div class="dropdown">
+                  <button class="dropbtn" target="_blank">Recetas
+                     <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+               
+                     <a href="./Aceite.html" target="_blank">Aceite</a>
+                     <a href="./chilaquiles.html" target="_blank">Chilaquiles</a>
+                     <a href="./Guacamole.html" target="_blank">Guacamole</a>
+                     <a href="./huaraches.html" target="_blank">Huaraches</a>
+                     <a href="./lomoRelleno.html" target="_blank">Lomo</a>
+                     <a href="./Tiempos.html" target="_blank">Tiempos</a>
+                  </div>
+               </div>
+   
+     <a href="../Jardineria.html" target="_blank">Jardineria</a>
+               <a href="../Gamezone.html" target="_blank">Gamezone</a>
+               
+               <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
+   
+   
+   
+            <script>
+               function myFunction() {
+                  var x = document.getElementById("myTopnav");
+                  if (x.className === "topnav") {
+                     x.className += " responsive";
+                  } else {
+                     x.className = "topnav";
+                  }
+               }
+            </script>
+         </div>
 
-        <div class="head">
-            <h1>Aguachile</h1>
-            <img src="./imgRecetas/Aguachile.jpg" alt="">
+        <div class="header">
+            <h2>Ara Blog</h2></div>
+
+        <div class="head"><h1>Aguachile con gambas</h1>
+          <img src="./imgRecetas/Aguachile.jpg" alt="Aguachile">
+           
+        
+          
 
 
 
