@@ -48,7 +48,7 @@ html a {
 
 @media only screen and (min-width: 150px) and (max-width: 800px) {
     .header h3{
-        margin-left: 80%;
+        margin-left:50%;
     }
 
     .main {
@@ -70,7 +70,7 @@ html a {
         padding: 0 0 0 3%;
     }
     .footer p{
-        margin-left: 33%;
+        margin-left: 11%;
     }
 }
 
@@ -101,7 +101,7 @@ html a {
         padding: 1%;
     }
     .footer p{
-        margin-left: 70%;
+        margin-left: 50%;
     }
 
 }
