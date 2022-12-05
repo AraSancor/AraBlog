@@ -8,17 +8,14 @@ body,
 html {
 
     font-family: sans-serif;
-    color: aliceblue;
+
 }
 
 html a {
     text-decoration: none;
 }
 
-
-
-
-.item1 {
+.header {
     grid-area: header;
     display: flex;
 
@@ -28,18 +25,17 @@ html a {
     grid-area: slide;
 }
 
-.item3 {
+.main {
     grid-area: main;
 }
-.item3 {
-    grid-area: main;
-}
-.item5 {
+
+.footer {
     grid-area: footer;
 }
 
 
 @media only screen and (min-width: 150px) and (max-width: 800px) {
+
     .grid-container {
         display: grid;
         grid-template-areas:
@@ -50,23 +46,19 @@ html a {
 
     }
 
-    body {
-        color: black;
-    }
-
-    .item1 {
+    .header {
         background-color: black;
         color: aliceblue;
         grid-gap: 3%;
     }
 
-    .item1 img {
+    .header img {
         width: 5vw;
         border-radius: 50%;
-        padding-top: 2% ;
+        padding-top: 2%;
     }
 
-    .item1 h1 {
+    .header h1 {
         margin-left: 33%;
     }
 
@@ -75,23 +67,22 @@ html a {
         background-color: black;
     }
 
-    .item3 {
+    .main {
 
         background-image: url(../img/smartphone.webp);
         background-repeat: no-repeat;
         background-size: cover;
-        width: 51vw;
         background-color: aliceblue;
-        margin-bottom: 5%;
+       
     }
 
-    .item3 p {
+    .main p {
         margin-left: 110%;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 5vw;
     }
 
-    .item3 img {
+    .main img {
         width: 28vw;
         height: 22vw;
         cursor: pointer;
@@ -99,7 +90,7 @@ html a {
 
     }
 
-    .item3 img:hover {
+    .main img:hover {
         width: 32vw;
         height: 28vw;
 
@@ -115,10 +106,10 @@ html a {
 
     }
 
-    .item5 {
+    .footer {
         background-color: black;
         color: aliceblue;
-        padding: 1% 2%  2% 11%;
+        padding: 1% 2% 2% 11%;
 
     }
 
@@ -136,44 +127,55 @@ html a {
     }
 
     body {
+        background-image: url(../img/home-office.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 80vw;
+    }
+
+    .header {
+        width: 98vw;
         background-color: black;
-    }
-
-    .item1 {
+        color: #bbb;
         grid-gap: 3%;
+        opacity: 0.7;
     }
 
-    .item1 img {
+    .header img {
         width: 3vw;
         border-radius: 50%;
 
     }
 
-    .item1 h1 {
-
+    .header h1 {
         margin-left: 80%;
     }
 
-    .item3 {
-
-        background-image: url(../img/home-office.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
+    .slideshow-container {
+        width: 44vw;
+        height: 22vw;
+        opacity: 0.9;
     }
 
-    .item3 p {
+    .slideshow-container img {
+        margin: 3% 2% 0 60%;
+    border-radius: 5px 50px;
+       
+    }
+
+     .main p {
         margin-left: 8%;
         font-size: 2vw;
     }
 
-    .item3 img {
+    .main img {
         width: 14vw;
         height: 10vw;
         cursor: pointer;
-        margin-bottom: 200%;
+       
     }
 
-    .item3 img:hover {
+    .main img:hover {
         width: 18vw;
         height: 14vw;
         margin: 0;
@@ -185,24 +187,24 @@ html a {
         display: flex;
         grid-gap: 8%;
     }
-    .slideshow-container {
-        width: 100vw;
-    }
 
-    .slideshow-container img {
-        width: 100vw;
-        height: 50vw;
-
-    }
-
-
+    
     .item5 p {
         margin-left: 70%;
         font-size: 2vw;
     }
+    .footer {  color: #fff;
+        background-color: black;
+        opacity: 0.7;
+    
+    }
+    .footer p {
+      
+         margin-left: 50%;
+        padding: 1%;
+        font-size: 2vw;
+    }
 }
-
-/* slide */
 
 .mySlides {
     display: none;
@@ -213,13 +215,18 @@ img {
 }
 
 /* Slideshow container */
+.slideshow-container {
 
+    position: relative;
+
+
+}
 
 /* Caption text */
 .text {
     color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
+    font-size: 2vw;
+    padding: 3%;
     position: absolute;
     bottom: 8px;
     width: 100%;
@@ -228,8 +235,8 @@ img {
 
 /* Number text (1/3 etc) */
 .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
+    color: #000;
+    font-size: 5vw;
     padding: 8px 12px;
     position: absolute;
     top: 0;
