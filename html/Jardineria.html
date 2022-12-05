@@ -1,33 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jardineria</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../css/bioindex.css">
-    
-   
-   
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jardineria</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../css/bioindex.css">
+
+
+
 </head>
+
 <body>
-    <div class="grid-container">
-<div class="header">
-    <h1>Ara Blog</h1>
-    <div>
+  <div class="grid-container">
+    <div class="header">
+      <h1>Ara Blog</h1>
+      <div>
         <img src="../img/Ara.jpg" alt="ara">
+      </div>
+
     </div>
 
-</div>
+    <div class="menu">
+      <div class="topnav" id="myTopnav">
+        <a href="../index.html">Inicio</a>
 
-<div class="menu">
-    <div class="topnav" id="myTopnav">
-      <a href="../index.html" >Inicio</a>
-            
-        <a href="../html/Informatica.html"target="_blank">Informatica</a>
+        <a href="../html/Informatica.html" target="_blank">Informatica</a>
         <div class="dropdown">
-          <button class="dropbtn" target="_blank">Otros 
+          <button class="dropbtn" target="_blank">Otros
             <i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-content">
@@ -35,32 +37,38 @@
             <a href="#" target="_blank">Link 2</a>
             <a href="#" target="_blank">Link 3</a>
           </div>
-        </div> 
-         <a href="../html/Gamezone.html"target="_blank">Gamezone</a>
-         <a href="../html/recetas.html"target="_blank">Recetas</a>
+        </div>
+        <a href="../html/Gamezone.html" target="_blank">Gamezone</a>
+        <a href="../html/recetas.html" target="_blank">Recetas</a>
         <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
       </div>
-      
-      
-      
-      <script>
-      function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-          x.className += " responsive";
-        } else {
-          x.className = "topnav";
-        }
-      }
-      </script>
-</div>
 
-<div class="main"> 
-    <a href="../html/jar/cultivoNopla.html" target="_blank" >Todo sobre el nopal</a>
-    <a href="../html/jar/Inviernoplantas.html" target="_blank" >Cuidado de plantas en invierno</a>
-    <a href="../html/jar/Cultivodechiles.html" target="_blank" >Guindillas</a>
-</div>
-<div class="footer"><p>Mail: yessworkinf@gmail.com</p> </div>
+
+
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+      </script>
     </div>
+
+    <div class="main">
+
+      <a href="../html/jar/Inviernoplantas.html" target="_blank">Cuidado de plantas en invierno</a>
+
+      <a href="../html/jar/Cultivodechiles.html" target="_blank">Guindillas</a>
+      <a href="../html/jar/cultivoNopla.html" target="_blank">Todo sobre el nopal</a>
+      <a href="" target="_blank">Aguacate</a>
+    </div>
+    <div class="footer">
+      <p>Mail: yessworkinf@gmail.com</p>
+    </div>
+  </div>
 </body>
+
 </html>

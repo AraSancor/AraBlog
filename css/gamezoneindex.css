@@ -17,15 +17,17 @@ html a {
 .grid-container {
     display: grid;
     grid-template-areas:
-    'menu'
+        'menu'
         'header'
         'main '
         'footer';
-   
+
 }
-.menu{
+
+.menu {
     grid-area: menu;
 }
+
 .header {
     grid-area: header;
 
@@ -35,7 +37,7 @@ html a {
 
 .main {
     grid-area: main;
-    
+
 
 }
 
@@ -45,24 +47,63 @@ html a {
 }
 
 @media only screen and (min-width: 150px) and (max-width: 800px) {
-    
-    .main{
+    .header h3{
+        margin-left: 80%;
+    }
+
+    .main {
         background-image: url(../img/smile-7424843_960_720.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         width: 100vw;
-    height: 100vw;
-       }
+        height: 100vw;
+    }
+
+    .main a {
+        font-size: 5vw;
+        display: block;
+        cursor: pointer;
+        color: #f2f2f2;
+        background-color: #000;
+        opacity: 0.8;
+        margin: 5%;
+        padding: 0 0 0 3%;
+    }
+    .footer p{
+        margin-left: 33%;
+    }
 }
 
 @media only screen and (min-width: 801px) and (max-width: 3800px) {
-    .main{
-        background-image: url(../img/controlvg.jpg);
+
+    .topnav {
+        padding-left: 33%;
+    }
+    .header h3{
+        margin-left: 88%;
+    }
+    .main {
+        background-image: url(../img/joysticks11.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        width: 100vw;
-    height: 100vw;
-       }
+        width: 99vw;
+        height: 50vw;
+    }
+
+    .main a {
+        font-size: 2vw;
+        display: block;
+        cursor: pointer;
+        color: #fff;
+        background-color: #000;
+        opacity: 0.5;
+        margin: 1% 0 0 60%;
+        padding: 1%;
+    }
+    .footer p{
+        margin-left: 70%;
+    }
+
 }
 
 /*menu*/
@@ -70,7 +111,7 @@ html a {
 
 .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(26, 25, 25);
 
 }
 

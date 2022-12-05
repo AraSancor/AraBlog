@@ -67,11 +67,12 @@ html a {
     }
 
     .flex {
+   
         display: flex;
         background-color: #191A19;
         color: #D8E9A8;
-        padding: 1% 5% 0 5%;
-        text-align: left;
+       
+     
     }
 
     .flex p,
@@ -123,6 +124,8 @@ html a {
             'footer footer';
 
     }
+      
+
     .topnav {
 
         padding-left: 30%;
@@ -134,6 +137,7 @@ html a {
         border-radius: 50%;
     }
     .flex {
+         width: 100vw;
         font-size: 1.5vw;
         display: flex;
        margin: 0 4% 0 4%;

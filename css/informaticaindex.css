@@ -24,7 +24,11 @@ html a {
     grid-gap: 10px;
     padding: 10px;
 }
-.menu{grid-area: menu;}
+
+.menu {
+    grid-area: menu;
+}
+
 .header {
     grid-area: header;
 
@@ -34,7 +38,7 @@ html a {
 
 .main {
     grid-area: main;
-    
+
 
 }
 
@@ -44,27 +48,59 @@ html a {
 }
 
 @media only screen and (min-width: 150px) and (max-width: 800px) {
-    .main{
     
-        background-image: url(../img/codeLEG.jpg);
+    .header h3{
+        margin-left: 80%;
+    }
+    .main {
+
+        background-image: url(../img/cloud-computing.png);
         background-repeat: no-repeat;
         background-size: cover;
-    width: 95vw;
-    height: 100vw;
-}
+        width: 95vw;
+        height: 100vw;
+    }
+    .main a{
+        font-size: 5vw;
+        display: block;
+        cursor: pointer;
+        color: #f2f2f2;
+        background-color: #000;
+        opacity: 0.8;
+        margin: 5%;
+        padding: 0 0 0 3%;
+    }
 }
 
 @media only screen and (min-width: 801px) and (max-width: 3800px) {
-    body{
+    body {
         color: aliceblue;
     }
-    .main{
+    .topnav {
+   padding-left: 33%;
     
-            background-image: url(../img/3key.png);
-            background-repeat: no-repeat;
-            background-size: cover;
+    }
+
+    .header h3{
+        margin-left: 88%;
+    }
+    .main {
+
+        background-image: url(../img/3key.png);
+        background-repeat: no-repeat;
+        background-size: cover;
         width: 90vw;
         height: 45vw;
+    }
+    .main a{
+        font-size: 2vw;
+        display: block;
+        cursor: pointer;
+        color: #000;
+        background-color: #fff;
+        opacity: 0.3;
+        margin:  1% 0 0 60%;
+        padding: 1%;
     }
 }
 
