@@ -71,6 +71,7 @@ html a {
         background-color: #191A19;
         color: #D8E9A8;
         padding: 1% 5% 0 5%;
+        text-align: left;
     }
 
     .flex p,
