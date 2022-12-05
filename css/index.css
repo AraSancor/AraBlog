@@ -68,7 +68,7 @@ html a {
     }
 
     .main {
-
+width: 45vw;
         background-image: url(../img/smartphone.webp);
         background-repeat: no-repeat;
         background-size: cover;
@@ -76,11 +76,7 @@ html a {
        
     }
 
-    .main p {
-        margin-left: 110%;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 5vw;
-    }
+ }
 
     .main img {
         width: 28vw;
@@ -97,7 +93,7 @@ html a {
     }
 
     .slideshow-container {
-        width: 100vw;
+        width: 95vw;
     }
 
     .slideshow-container img {
