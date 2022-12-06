@@ -128,7 +128,7 @@ html a {
     }
 
     body {
-        background-image: url(../img/home-office.jpg);
+        background-image: url(../img/iphone-1852901_960_720.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         width: 80vw;
@@ -153,25 +153,20 @@ html a {
     }
 
     .slideshow-container {
-        width: 44vw;
-        height: 22vw;
+        width: 50vw;
         opacity: 0.9;
     }
 
     .slideshow-container img {
-        margin: 3% 2% 0 60%;
-    border-radius: 5px 50px;
+        margin: 0 0 0 90%;
+        border-radius: 5px 50px;
        
     }
     .numbertext {
-        color: #000;
-        font-size: 6vw;
+        color: #fff;
+        font-size: 5vw;
+        margin: 5%;
        
-    }
-
-     .main p {
-        margin-left: 8%;
-        font-size: 2vw;
     }
 
     .main img {
@@ -182,9 +177,12 @@ html a {
     }
 
     .main img:hover {
-        width: 18vw;
-        height: 14vw;
+        width: 15vw;
+        height: 11vw;
         margin: 0;
+        background-color: #f2f2f2;
+        opacity: 0.6;
+        border-radius: 10px;
 
     }
 
@@ -195,20 +193,16 @@ html a {
     }
 
     
-    .item5 p {
-        margin-left: 70%;
-        font-size: 2vw;
-    }
-    .footer {  color: #fff;
+    .footer { 
+        color: #fff;
         background-color: black;
         opacity: 0.7;
     
     }
     .footer p {
-      
-         margin-left: 50%;
+        margin-left: 50%;
         padding: 1%;
-        font-size: 2vw;
+        font-size: 1.5vw;
     }
 }
 
