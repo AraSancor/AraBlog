@@ -76,7 +76,7 @@ width: 45vw;
        
     }
 
- }
+ 
 
     .main img {
         width: 28vw;
@@ -109,8 +109,8 @@ width: 45vw;
 
     }
 
-}
 
+}
 @media only screen and (min-width: 801px) and (max-width: 3800px) {
     .grid-container {
         display: grid;
