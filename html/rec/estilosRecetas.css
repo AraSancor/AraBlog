@@ -5,9 +5,7 @@
 
 body,
 html {
-    background-image: url(./imgRecetas/wood-744306_960_720.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+
     font-family: sans-serif;
     color: #fff;
 }
@@ -24,7 +22,7 @@ html a {
 .header {
     opacity: 0.7;
     grid-area: header;
-    background-color: #222831;
+    background-color: #101214;
     color: #EEEEEE;
 }
 
@@ -44,7 +42,7 @@ html a {
 .aside {
     opacity: 0.7;
     border-radius: 5px 25px;
-    color: #393E46;
+    color: #25282e;
     grid-area: aside;
     
 }
@@ -61,10 +59,15 @@ html a {
 }
 
 @media only screen and (min-width: 50px) and (max-width: 800px) {
-    img {
-        width: 50vw;
+    body
+     {
+        background-image: url(./imgRecetas/bonfire-7215973_960_720.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        
     }
-
+  
     .grid-container {
         display: grid;
         grid-template-areas:
@@ -83,6 +86,7 @@ html a {
     }
 
     .header {
+        opacity: 0.8;
         padding-top: 2%;
         grid-gap: 5%;
         font-size: 3vw;
@@ -101,7 +105,7 @@ html a {
     }
 
     .header h3 {
-        color: #000;
+    
         background-color: #f2f2f2;
         border-radius: 10px;
         padding: 3px;
@@ -111,6 +115,7 @@ html a {
 
 
     .head {
+        opacity: 0.8;
         width: 88vw;
         display: flex;
         margin: 0 5% 2% 5%;
@@ -128,24 +133,27 @@ html a {
         font-size: 6vw;
         font-family: 'Times New Roman', Times, serif;
     }
-  .esp p {
-        background-color: #222831;
+    .esp p {
+        opacity: 0.8;
+        background-color: #0f1011;
         color: #EEEEEE;
         padding: 2%;
 
     }
     .aside {
-        background-image: url(./imgRecetas/leaves-5901142__340.jpg);
+        opacity: 0.5;
+        background-image: url(./imgRecetas/wood-2142241_960_720.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         padding: 5%;
+        margin: 8%;
             }
 
   
 
     .aside h2,
     h3 {
-padding:  10% 0 0 10%;
+     padding:  10% 0 0 10%;
         
     }
 
@@ -163,7 +171,6 @@ padding:  10% 0 0 10%;
 
     .main {
         width: 70vw;
-        text-align: justify;
         margin: 0 5% 0 11%;
 
     }
@@ -173,6 +180,7 @@ padding:  10% 0 0 10%;
     }
 
     .footer {
+        opacity: 0.9;
         font-size: 4vw;
         padding-left: 33%;
     }
@@ -189,7 +197,14 @@ padding:  10% 0 0 10%;
            'aside main'
             'footer footer';
     }
-
+    body,
+    html {
+        background-image: url(./imgRecetas/knob-933195_960_720.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        
+    }
     .topnav {
 
         padding-left: 30%;
@@ -234,8 +249,8 @@ padding:  10% 0 0 10%;
         background-image: url(./imgRecetas/wood-2142241_960_720.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-     margin-left: 10%;
-       
+        margin-left: 10%;
+        opacity: 0.6;
     
     }
      .aside h2, h3{
@@ -257,7 +272,7 @@ padding:  10% 0 0 10%;
         text-align: justify;
         margin: 3%;
     }
-.main ol, ul{
+    .main ol, ul{
     padding: 5% 2% 2% 2%;
 }
     .main p {
