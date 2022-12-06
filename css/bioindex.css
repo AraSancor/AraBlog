@@ -26,6 +26,8 @@ html a {
 
 .menu {
     grid-area: menu;
+    position: sticky;
+    top: 0;
 }
 
 .header {
@@ -34,10 +36,11 @@ html a {
 
 .main {
     grid-area: main;
-
-
 }
-
+.main a:hover{
+color: #000;
+background-color: #ddd;
+}
 .footer {
 
     grid-area: footer;
@@ -80,27 +83,34 @@ html a {
         margin: 6% ;
         font-size: 6vw;
         padding: 3% 1% 1%  10%;
-        border-radius: 5px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
     .footer {
         background-color: #000;
         padding: 3% 0 3% 43%;
-        opacity: 0.8;
+        opacity: 0.9;
 
     }
 }
 
 @media only screen and (min-width: 801px) and (max-width: 3800px) {
+    body {
+        background-image: url(../img/garden.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+     
+    }
     .topnav {
-
+        opacity: 0.8;
         padding-left: 30%;
+      
     }
 
     .header {
+        opacity: 0.7;
         padding: 1%;
-        margin-left: 60%;
+        padding-left: 60%;
         display: flex;
         background-color: #000;
         color: #285430;
@@ -109,16 +119,8 @@ html a {
     .header img {
         width: 5vw;
         border-radius: 50%;
+        opacity: 0.8;
     }
-
-    .main {
-        background-image: url(../img/garden.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100vw;
-      
-    }
-
     .main a {
         display: block;
         background-color: #285430;
@@ -127,15 +129,15 @@ html a {
         margin: 5% 5% 3% 33%;
         font-size: 2.5vw;
         padding-left: 5%;
-        border-radius: 10px;
+        opacity: 0.7;
     }
 
     .footer {
         font-size: 2vw;
-   background-color: #000;
+        background-color: #000;
         color: #285430;
-        grid-area: footer;
-        text-align: center;
+        opacity: 0.9;
+        padding: 2% 2% 2% 60%;
 
     }
 
@@ -145,6 +147,7 @@ html a {
 
 
 .topnav {
+  
     overflow: hidden;
     background-color: #333;
 
