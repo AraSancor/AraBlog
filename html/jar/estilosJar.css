@@ -5,14 +5,8 @@
 
 body,
 html {
-
-
     font-family: sans-serif;
-    /* background-image: url(./imgbio/dew-6377686_960_720.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;*/
-
-}
+    }
 
 html a {
     text-decoration: none;
@@ -37,13 +31,6 @@ html a {
     grid-area: main;
 }
 
-.divmain {
-    color: #D8E9A8;
-    display: flex;
-    background-color: #000;
-    opacity: 0.8;
-}
-
 .footer {
     grid-area: footer;
     color: #A4BE7B;
@@ -65,10 +52,7 @@ html a {
     .topnav {
         padding: 0 3% 0 0;
     }
-
-    .header {
-        opacity: 0.8;
-    }
+  
 
     .header img {
         margin: 2% 1% 0 20%;
@@ -78,13 +62,8 @@ html a {
     }
 
     .flex {
-
-        opacity: 0.8;
-        background-color: #191A19;
-        color: #D8E9A8;
-
-
-    }
+        opacity: 0.9;
+          }
 
     .flex p,
     h1 {
@@ -93,6 +72,7 @@ html a {
     }
 
     .flex2 {
+        margin: 3%;
         padding: 1% 2% 0 33%;
         background-color: #4E9F3D;
         font-size: 3vw;
@@ -107,6 +87,8 @@ html a {
     }
 
     .main {
+        background-color: #191A19;
+        color: #D8E9A8;
         margin: 1% 3% 4% 3%;
     }
 
@@ -115,18 +97,16 @@ html a {
         width: 50vw;
     }
 
-    .main ol,
-    h2,
-    h3,
-    p {
+    .main ol, li, h2, h3, p {
+        
         padding: 1%;
         margin: 1% 7% 4% 7%;
     }
 
-    .main h2,
-    h3 {
-        text-align: left;
-
+   
+    .divmain{display: block;}
+    .divmain img{
+        display: none;
     }
 
     .footer {
@@ -155,9 +135,7 @@ html a {
         padding-left: 30%;
     }
 
-    .header {
-        opacity: 0.8;
-    }
+   
 
     .header img {
         margin: 2% 2% 2% 10%;
@@ -216,7 +194,12 @@ html a {
         margin: 1% 7% 1% 7%;
     }
 
-    
+    .divmain {
+        color: #D8E9A8;
+        display: flex;
+        background-color: #000;
+        opacity: 0.8;
+    }
     .divmain {
         grid-gap: 5%;
     }
@@ -234,7 +217,7 @@ html a {
     }
 
     .footer {
-        padding-left: 80%;
+        text-align: right;
     }
 }
 
