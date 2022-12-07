@@ -15,12 +15,12 @@ html a {
 }
 
 .menu {
-
     grid-area: menu;
+   
 }
 
 .header {
-    opacity: 0.7;
+    opacity: 0.8;
     grid-area: header;
     background-color: #101214;
     color: #EEEEEE;
@@ -40,7 +40,7 @@ html a {
 }
 
 .aside {
-    opacity: 0.7;
+    opacity: 0.9;
     border-radius: 5px 25px;
     color: #25282e;
     grid-area: aside;
@@ -48,6 +48,7 @@ html a {
 }
 
 .main {
+        opacity: 0.8;
     grid-area: main;
 }
 
@@ -61,7 +62,7 @@ html a {
 @media only screen and (min-width: 50px) and (max-width: 800px) {
     body
      {
-        background-image: url(./imgRecetas/bonfire-7215973_960_720.jpg);
+        background-image: url(./imgRecetas/yellow-pepper-3978205_960_720.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         
@@ -86,7 +87,7 @@ html a {
     }
 
     .header {
-        opacity: 0.8;
+     
         padding-top: 2%;
         grid-gap: 5%;
         font-size: 3vw;
@@ -98,6 +99,7 @@ html a {
         width: 5vw;
         border-radius: 50%;
         margin: 1%;
+    
     }
 
     .header h2 {
@@ -115,7 +117,7 @@ html a {
 
 
     .head {
-        opacity: 0.8;
+   
         width: 88vw;
         display: flex;
         margin: 0 5% 2% 5%;
@@ -127,21 +129,20 @@ html a {
     }
 
     .head h1 {
-     
-        
+            
         padding-left: 8%;
         font-size: 6vw;
         font-family: 'Times New Roman', Times, serif;
     }
     .esp p {
-        opacity: 0.8;
+     
         background-color: #0f1011;
         color: #EEEEEE;
         padding: 2%;
 
     }
     .aside {
-        opacity: 0.5;
+       
         background-image: url(./imgRecetas/wood-2142241_960_720.jpg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -180,7 +181,7 @@ html a {
     }
 
     .footer {
-        opacity: 0.9;
+      
         font-size: 4vw;
         padding-left: 33%;
     }
@@ -199,7 +200,7 @@ html a {
     }
     body,
     html {
-        background-image: url(./imgRecetas/knob-933195_960_720.jpg);
+        background-image: url(./imgRecetas/Fondo1.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         
@@ -217,13 +218,14 @@ html a {
 
     .head {
         border-radius: 2px 0 30px 30px;
-        opacity: 0.5;
+    
         width: 60vw;
         display: flex;
         margin:  0 0 0 5%;
     }
 
     .head img {
+  
         height: 11vw;
         width: 15vw;
         margin: 0 10% 0 3%;
@@ -231,7 +233,7 @@ html a {
     }
 
     .head h1 {
-        padding: 0 0 0 5%;
+       
         font-size: 3vw;
         font-family: 'Times New Roman', Times, serif;
     }
@@ -250,8 +252,7 @@ html a {
         background-repeat: no-repeat;
         background-size: cover;
         margin-left: 10%;
-        opacity: 0.6;
-    
+           
     }
      .aside h2, h3{
     text-align: center;
@@ -272,11 +273,11 @@ html a {
         text-align: justify;
         margin: 3%;
     }
-    .main ol, ul{
-    padding: 5% 2% 2% 2%;
+    .main ol, ul, h2, h3{
+    padding: 5% 2% 2% 5%;
 }
-    .main p {
-        padding: 1%;
+    .main p  {
+        padding: 2% 8% 1% 8%;
     }
 
     .footer {
@@ -292,7 +293,7 @@ html a {
 
 .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(32, 32, 32);
 
 }
 
