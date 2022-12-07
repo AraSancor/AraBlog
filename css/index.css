@@ -55,10 +55,11 @@ html a {
     }
 
     .header {
+        margin: 5% 3% 0 3%;
         background-color: black;
         color: aliceblue;
         grid-gap: 3%;
-        opacity: 0.8;
+        opacity: 0.7;
     }
 
     .header img {
@@ -80,6 +81,9 @@ html a {
         height: 22vw;
         cursor: pointer;
         margin: 8%;
+        background-color: #757679;
+        border-radius: 10px;
+        padding: 3%;
 
     }
 
@@ -92,12 +96,12 @@ html a {
         }
 
     .slideshow-container {
-        width: 90vw;
+        width: 91vw;
     }
 
     .slideshow-container img {
-        margin: 3%;
-        border-radius: 5px 20px 0 5px;
+        margin: 0 3% 3% 3%;
+        border-radius:  0 0 10px 10px;
     }
     .numbertext {
         color: #fff;
@@ -153,13 +157,13 @@ html a {
     }
 
     .slideshow-container {
-        width: 50vw;
+        width: 45vw;
         opacity: 0.9;
     }
 
     .slideshow-container img {
         margin: 0 0 0 90%;
-        border-radius: 5px 50px;
+        border-radius: 1px 60px;
        
     }
     .numbertext {
@@ -169,21 +173,22 @@ html a {
        
     }
 
-    .main img {
+    .main img {  
+         opacity: 0.6;
         width: 14vw;
         height: 10vw;
         cursor: pointer;
-       
+        background-color: #757679;
+        border-radius: 10px;
+        padding: 3%;
     }
 
     .main img:hover {
         width: 15vw;
         height: 11vw;
         margin: 0;
-        background-color: #f2f2f2;
-        opacity: 0.6;
         border-radius: 10px;
-
+        background-color: #fff;
     }
 
     .item3div {
