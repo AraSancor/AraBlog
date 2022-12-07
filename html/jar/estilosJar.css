@@ -205,24 +205,18 @@ html a {
         width: 20vw;
     }
 
-    .main ol,
+    .main ol, li,
     h2,
     h3,
     p {
-        padding: 1%;
-        margin: 1% 7% 4% 7%;
-    }
-
-    .main h3,
-    h2,
-    p {
         color: #D8E9A8;
-
         background-color: #000;
         opacity: 0.8;
-
+        padding: 1%;
+        margin: 1% 7% 1% 7%;
     }
 
+    
     .divmain {
         grid-gap: 5%;
     }
