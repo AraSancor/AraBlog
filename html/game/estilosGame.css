@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box;
+    
     margin: 0;
     padding: 0;
 }
@@ -57,6 +57,24 @@ html {
     .header {
         padding: 3%;
     }
+    .divmain {
+        background-color: #000;
+        color: aliceblue;
+        text-align: justify;
+        margin: 5% 5% 6% 6%;
+     
+        opacity: 0.8;
+
+    }
+
+    .divmain img {
+        width: 50vw;
+    }
+
+    .divmain p,
+    h3 {
+        padding: 3%;
+    }
     .slideshow-container {
         width: 78vw;
     }
@@ -64,6 +82,12 @@ html {
     .slideshow-container img {
         margin: 5% 3% 3% 11%;
         border-radius:  1px 50px;
+    }
+    .numbertext {
+        color: #fff;
+        font-size: 6vw;
+        padding: 8px 12px 0 12%;
+        top: 20%;
     }
 
 }
@@ -86,6 +110,11 @@ html {
         'main slide'
         'footer footer';
 }
+
+    .topnav {
+    padding-left: 30%;
+     
+     }
     .header {
         padding: 2% 2% 0 0;
     }
@@ -94,9 +123,10 @@ html {
         background-color: #000;
         color: aliceblue;
         text-align: justify;
-        margin: 2%;
+        margin: 5% 5% 6% 6%;
         display: flex;
         opacity: 0.8;
+
     }
 
     .divmain img {
@@ -110,9 +140,15 @@ html {
     .slideshow-container {
     width: 33vw;
     position: sticky;
-    top: 20px;
+    top: 50px;
     opacity: 0.8;
 
+}
+.numbertext {
+    color: #fff;
+    font-size: 5vw;
+    margin: 5% 5% 0 33%; 
+   
 }
 
 
