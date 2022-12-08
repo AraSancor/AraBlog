@@ -1,5 +1,5 @@
 * {
-    
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -16,7 +16,7 @@ html {
     grid-area: header;
     background-color: #000;
     color: #f2f2f2;
-    text-align: right;
+
 }
 
 .menu {
@@ -39,12 +39,20 @@ html {
     grid-area: footer;
     background-color: #000;
     color: #f2f2f2;
-    text-align: right;
+ 
 }
 
 
 
 @media only screen and (min-width: 50px) and (max-width: 800px) {
+    body {
+
+        background-image: url(./imgGeme/indemann.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+       
+       
+    }
     .grid-container {
         display: grid;
         grid-template-areas:
@@ -55,19 +63,21 @@ html {
             'footer ';
     }
     .header {
+        text-align: right;
         padding: 3%;
     }
     .divmain {
+        padding: 5%;
+        width: 88vw;
         background-color: #000;
         color: aliceblue;
         text-align: justify;
-        margin: 5% 5% 6% 6%;
-     
         opacity: 0.8;
-
+        margin: 5%;
     }
 
     .divmain img {
+        padding: 5%;
         width: 50vw;
     }
 
@@ -76,20 +86,23 @@ html {
         padding: 3%;
     }
     .slideshow-container {
-        width: 78vw;
+        width: 96vw;
     }
 
     .slideshow-container img {
-        margin: 5% 3% 3% 11%;
-        border-radius:  1px 50px;
+      opacity: 0.8;
+
     }
     .numbertext {
         color: #fff;
         font-size: 6vw;
-        padding: 8px 12px 0 12%;
+        padding: 8px 2px 0 2%;
         top: 20%;
     }
-
+.footer p{
+text-align: right;
+padding: 3%;
+}
 }
 
 @media only screen and (min-width: 801px) and (max-width: 3800px) {
@@ -116,6 +129,7 @@ html {
      
      }
     .header {
+        text-align: right;
         padding: 2% 2% 0 0;
     }
 
@@ -150,7 +164,10 @@ html {
     margin: 5% 5% 0 33%; 
    
 }
-
+.footer{
+    text-align: right;
+    padding: 2% 2% 1% 0;
+}
 
 
 }
