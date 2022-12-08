@@ -1,8 +1,16 @@
-.header { grid-area: header; }
+.header { grid-area: header; 
+background-color: #000;
+color: #f2f2f2;
+text-align: right;
+}
 .menu { grid-area: menu; }
 .main{ grid-area: main; }
 .right { grid-area: right; }
-.footer { grid-area: footer; }
+.footer { grid-area: footer; 
+    background-color: #000;
+    color: #f2f2f2;
+    text-align: right;
+}
 
 .grid-container {
   display: grid;
@@ -15,8 +23,29 @@
   
  
 }
-@media only screen and (min-width: 50px) and (max-width: 800px){}
-@media only screen and (min-width: 801px) and (max-width: 3800px){}
+@media only screen and (min-width: 50px) and (max-width: 800px){
+.header{
+    padding: 3%;
+}
+
+
+}
+@media only screen and (min-width: 801px) and (max-width: 3800px){
+    .header{
+        padding: 2% 2% 0 0 ;
+    }
+    .divmain{
+      
+        margin: 2%;
+    display: flex;
+} 
+.divmain img{
+    width: 30vw;
+}
+.divmain p, h3{
+    padding: 3%;
+}
+}
 
 /*menu*/
 
