@@ -25,7 +25,7 @@ html {
     grid-area: main;
 }
 
-.right {
+.aside {
     grid-area: aside;
 }
 
@@ -53,9 +53,11 @@ html {
     }
 
     .divmain {
+        margin: 2%;
         color: #000;
         background-color: aliceblue;
-        opacity: 0.8;
+        opacity: 0.9;
+        padding: 2%;
     }
 
 }
@@ -86,10 +88,10 @@ html {
     }
 
     .divmain {
-      
+      margin: 3%;
         color: #000;
         background-color: aliceblue;
-        opacity: 0.8;
+        opacity: 0.9;
         padding: 3%;
     }
 
