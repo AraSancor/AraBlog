@@ -16,7 +16,7 @@ html a {
 
 .menu {
     grid-area: menu;
-   
+
 }
 
 .header {
@@ -44,11 +44,11 @@ html a {
     border-radius: 5px 25px;
     color: #25282e;
     grid-area: aside;
-    
+
 }
 
 .main {
-        opacity: 0.8;
+    opacity: 0.8;
     grid-area: main;
 }
 
@@ -60,15 +60,14 @@ html a {
 }
 
 @media only screen and (min-width: 50px) and (max-width: 800px) {
-    body
-     {
+    body {
         background-image: url(./imgRecetas/yellow-pepper-3978205_960_720.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        
-        
+
+
     }
-  
+
     .grid-container {
         display: grid;
         grid-template-areas:
@@ -87,7 +86,7 @@ html a {
     }
 
     .header {
-     
+
         padding-top: 2%;
         grid-gap: 5%;
         font-size: 3vw;
@@ -99,7 +98,7 @@ html a {
         width: 5vw;
         border-radius: 50%;
         margin: 1%;
-    
+
     }
 
     .header h2 {
@@ -107,7 +106,7 @@ html a {
     }
 
     .header h3 {
-    
+
         background-color: #f2f2f2;
         border-radius: 10px;
         padding: 3px;
@@ -117,7 +116,7 @@ html a {
 
 
     .head {
-   
+
         width: 88vw;
         display: flex;
         margin: 0 5% 2% 5%;
@@ -129,33 +128,35 @@ html a {
     }
 
     .head h1 {
-            
+
         padding-left: 8%;
         font-size: 6vw;
         font-family: 'Times New Roman', Times, serif;
     }
+
     .esp p {
-     
+
         background-color: #0f1011;
         color: #EEEEEE;
         padding: 2%;
 
     }
+
     .aside {
-       
+
         background-image: url(./imgRecetas/wood-2142241_960_720.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         padding: 5%;
         margin: 8%;
-            }
+    }
 
-  
+
 
     .aside h2,
     h3 {
-     padding:  10% 0 0 10%;
-        
+        padding: 10% 0 0 10%;
+
     }
 
     .aside ul,
@@ -181,7 +182,7 @@ html a {
     }
 
     .footer {
-      
+
         font-size: 4vw;
         padding-left: 33%;
     }
@@ -195,17 +196,19 @@ html a {
             'menu menu'
             'header header'
             'esp head'
-           'aside main'
+            'aside main'
             'footer footer';
     }
+
     body,
     html {
         background-image: url(./imgRecetas/Fondo1.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        
-        
+
+
     }
+
     .topnav {
 
         padding-left: 30%;
@@ -218,14 +221,14 @@ html a {
 
     .head {
         border-radius: 2px 0 30px 30px;
-    
+
         width: 60vw;
         display: flex;
-        margin:  0 0 0 5%;
+        margin: 0 0 0 5%;
     }
 
     .head img {
-  
+
         height: 11vw;
         width: 15vw;
         margin: 0 10% 0 3%;
@@ -233,7 +236,7 @@ html a {
     }
 
     .head h1 {
-       
+
         font-size: 3vw;
         font-family: 'Times New Roman', Times, serif;
     }
@@ -246,21 +249,24 @@ html a {
 
 
     }
-    
+
     .aside {
         background-image: url(./imgRecetas/wood-2142241_960_720.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         margin-left: 10%;
-           
+
     }
-     .aside h2, h3{
-    text-align: center;
-    padding: 10% 2% 0 2%;
-}
+
+    .aside h2,
+    h3 {
+        text-align: center;
+        padding: 10% 2% 0 2%;
+    }
+
     .aside ul,
     ol {
-       
+
         padding: 5% 2% 2% 20%;
     }
 
@@ -273,10 +279,15 @@ html a {
         text-align: justify;
         margin: 3%;
     }
-    .main ol, ul, h2, h3{
-    padding: 5% 2% 2% 5%;
-}
-    .main p  {
+
+    .main ol,
+    ul,
+    h2,
+    h3 {
+        padding: 5% 2% 2% 5%;
+    }
+
+    .main p {
         padding: 2% 8% 1% 8%;
     }
 

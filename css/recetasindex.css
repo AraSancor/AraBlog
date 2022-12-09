@@ -36,7 +36,7 @@ html a {
 
 .slide {
     grid-area: slide;
-   
+
 }
 
 .main {
@@ -55,13 +55,14 @@ html a {
 }
 
 @media only screen and (min-width: 150px) and (max-width: 800px) {
-  
 
-    body{
+
+    body {
         background-image: url(../img/spice.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
+
     .grid-container {
         display: grid;
         grid-template-areas:
@@ -72,16 +73,17 @@ html a {
             'footer';
 
     }
+
     .topnav {
         padding: 0 3% 0 0;
     }
-    
+
 
     .header {
         padding-top: 2%;
         grid-gap: 3%;
         opacity: 0.7;
-      
+
     }
 
     .header img {
@@ -92,10 +94,10 @@ html a {
 
     .header h1 {
         font-size: 5vw;
-      padding-left: 60%;
+        padding-left: 60%;
     }
 
-      .slideshow-container {
+    .slideshow-container {
         width: 90vw;
         opacity: 0.9;
     }
@@ -105,7 +107,7 @@ html a {
         width: 80vw;
         border-radius: 5px 50px;
     }
-   
+
 
     .main a {
         color: white;
@@ -121,11 +123,13 @@ html a {
     .main a:hover {
         color: black;
         background-color: white;
-    
+
     }
-.footer{
-    opacity: 0.7;
-}
+
+    .footer {
+        opacity: 0.7;
+    }
+
     .footer p {
         margin-left: 33%;
         padding: 1%;
@@ -135,12 +139,13 @@ html a {
 }
 
 @media only screen and (min-width: 801px) and (max-width: 3800px) {
-    
-    body{
+
+    body {
         background-image: url(../img/herbs.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
+
     .grid-container {
         display: grid;
         grid-template-areas:
@@ -192,7 +197,7 @@ html a {
 
     }
 
-   
+
 
     .main a {
         color: whitesmoke;
@@ -208,8 +213,9 @@ html a {
 
     .footer {
         opacity: 0.7;
-    
+
     }
+
     .footer p {
         opacity: 0.7;
         margin-left: 50%;

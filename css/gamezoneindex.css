@@ -47,8 +47,8 @@ html a {
 }
 
 @media only screen and (min-width: 150px) and (max-width: 800px) {
-    .header h3{
-        margin-left:50%;
+    .header h3 {
+        margin-left: 50%;
     }
 
     .main {
@@ -69,7 +69,8 @@ html a {
         margin: 5%;
         padding: 0 0 0 3%;
     }
-    .footer p{
+
+    .footer p {
         margin-left: 11%;
     }
 }
@@ -79,9 +80,11 @@ html a {
     .topnav {
         padding-left: 33%;
     }
-    .header h3{
+
+    .header h3 {
         margin-left: 88%;
     }
+
     .main {
         background-image: url(../img/joysticks11.jpg);
         background-repeat: no-repeat;
@@ -100,7 +103,8 @@ html a {
         margin: 1% 0 0 60%;
         padding: 1%;
     }
-    .footer p{
+
+    .footer p {
         margin-left: 50%;
     }
 

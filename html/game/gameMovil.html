@@ -1,100 +1,184 @@
-
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VJmobil</title>
-    <link rel="stylesheet" href="./estilosGame.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VJmobil</title>
+  <link rel="stylesheet" href="./estilosGame.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
-    <div class="grid-container">
+  <div class="grid-container">
 
-      <div class="header">
-        <h2>Ara Blog</h2>
+    <div class="header">
+      <h2>Ara Blog</h2>
+    </div>
+    <div class="menu">
+
+      <div class="topnav" id="myTopnav">
+        <a href="../../index.html">Inicio</a>
+
+        <a href="../Informatica.html">Informatica</a>
+        <a href="../Jardineria.html">Jardineria</a>
+        <a href="../recetas.html">Recetas</a>
+
+        <div class="dropdown">
+          <button class="dropbtn">List
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="gameConsola.html">VJConsola</a>
+            <a href="gameOrdenador.html">VJPC</a>
+          </div>
+        </div>
+
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
       </div>
-              <div class="menu">
 
-                <div class="topnav" id="myTopnav">
-                    <a href="../../index.html">Inicio</a>
-                    
-                    <a href="../Informatica.html" >Informatica</a>
-                    <a href="../Jardineria.html">Jardineria</a>
-                    <a href="../recetas.html" >Recetas</a>
-            
-                <div class="dropdown">
-                      <button class="dropbtn" >List
-                        <i class="fa fa-caret-down"></i>
-                      </button>
-                      <div class="dropdown-content">
-                        <a href="gameConsola.html" >VJConsola</a>
-                        <a href="gameOrdenador.html" >VJPC</a>
-                      </div>
-                    </div>
-            
-                    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-                  </div>
-            
-            
-            <script src="../../js/menu.js"></script>
-            
 
-              </div>
-     
-        <div class="main">Main</div>  
-        
-        <div class="slide">
-          <div class="slideshow-container">
+      <script src="../../js/menu.js"></script>
 
-            <div class="mySlides fade">
-                <div class="numbertext"></div>
-                <img src="./imgGeme/mlbb.jpg" style="width:100%">
-                <div class="text"></div>
-            </div>
 
-            <div class="mySlides fade">
-                <div class="numbertext">Machinarium</div>
-                <img src="./imgGeme/m.jpg" style="width:100%">
-                <div class="text"></div>
-            </div>
+    </div>
 
-            <div class="mySlides fade">
-                <div class="numbertext"></div>
-                <img src="./imgGeme/magic.jpg" style="width:100%">
-                <div class="text"></div>
-            </div>
+    <div class="main">
+      <div class="divmain">
+        <img src="./imgGeme/m.jpg" alt="Machinarium">
+        <div>
+          <h3>Machinarium </h3>
 
-            <div class="mySlides fade">
-                <div class="numbertext">Ogame</div>
-                <img src="./imgGeme/ogame.png" style="width:100%">
-                <div class="text"></div>
-            </div>
+          <p>El objetivo de Machinarium es resolver una serie de puzzles. Algunos puzzles están ligados con el mundo
+            exterior, y se resuelven con el método de point-and-click.
 
-            <div class="mySlides fade">
-                <div class="numbertext">Clash of clans</div>
-                <img src="./imgGeme/clas.webp" style="width:100%">
-                <div class="text"></div>
-            </div>
+            Una de las cosas que más se pueden notar en Machinarium es que este no contiene diálogos escritos entre los
+            personajes. El juego usa un sistema de globos de diálogo animados para la comunicación entre los personajes.
 
-        </div>
-        <br>
-
-        <div style="text-align:center">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-        </div>
-
-     <script src="../../js/slide.js"></script>
-
-        </div>
-        <div class="footer">
-          <p>Mail: yessworkinf@gmail.com</p>
+            El juego usa un mecanismo de pistas, de manera que el jugador puede recibir una pista por cada nivel, que le
+            indique qué tiene que hacer para progresar en el juego. Sin embargo, cuanto más se avanza en el juego, las
+            pistas se vuelven más complicadas. Además, el juego incluye una guía al que se puede acceder siempre,
+            jugando un minijuego. La guía, como todo lo demás, no está escrito, sino que está compuesto de una serie de
+            dibujos en forma de historieta.</p>
         </div>
       </div>
+
+      <div class="divmain">
+        <img src="./imgGeme/clas.webp" alt="clashOfClans">
+        <div>
+          <h3>Clash of Clans </h3>
+
+          <p>Es un video juego de estrategia multijugador en el que el usuario debe construir una aldea
+            (en una cuadrícula de 44x44), donde tendrá que administrar recursos, construir y mejorar una amplia variedad
+            de edificios, entrenar tropas, elaborar hechizos, y atacar a otras aldeas de jugadores en línea o participar
+            en una campaña de un jugador en la que luchará contra aldeas prediseñadas, con la finalidad de obtener tres
+            tipos de recursos: oro, elixir y elixir oscuro; útiles para la expansión de la aldea. Al mismo tiempo, el
+            usuario puede crear o unirse a un clan, donde podrá interactuar con otros jugadores y participar en eventos
+            como las "Guerras de Clanes", los "Juegos del Clan" y las "Ligas de Guerras de clanes".</p>
+        </div>
+      </div>
+
+      <div class="divmain">
+        <img src="./imgGeme/ogame.jpg" alt="ogame">
+        <div>
+          <h3>OGame </h3>
+
+          <p>Es un videojuego multijugador masivo en línea de estrategia desarrollado por la empresa alemana
+            Gameforge. El juego está implementado en el lenguaje de programación PHP, requiriendo únicamente un
+            navegador común para poder jugarlo: dando una gran ventaja en el aspecto de los videojuegos, tan necesitados
+            de ram y memorias específica. Cada escenario de juego, denominado Universo, permite que se enfrenten
+            simultáneamente hasta 16500 jugadores. El primer universo apareció en Alemania en 20021​, donde en 2007 fue
+            el juego en línea más popular. Existen versiones en diferentes idiomas: español, inglés, francés, ruso,
+            portugués, danés, alemán, croata, italiano, húngaro, neerlandés, noruego, polaco, rumano, esloveno,
+            eslovaco, finés, sueco, turco, checo, griego, chino, japonés; es importante destacar que la versión en
+            español se divide entre servidores de España, México y Argentina; la portuguesa entre Portugal y Brasil; y
+            la inglesa entre Reino Unido y Estados Unidos. Asimismo, periódicamente se añaden nuevos servidores
+            (universos) al juego.</p>
+        </div>
+      </div>
+
+      <div class="divmain">
+        <img src="./imgGeme/mlbb.jpg" alt="mlbb">
+        <div>
+          <h3>Mobile Legends: Bang Bang </h3>
+
+          <p>Es un juego multijugador
+            online (MOBA) desarrollado y publicado por Moonton, una filial de ByteDance. Lanzado en 2016, el juego se
+            ha vuelto popular en el sureste de Asia y fue uno de los juegos seleccionados para el primer evento con
+            medallas de Esports en los Juegos del Sudeste Asiático 2019 desarrollado en Filipinas.</p>
+        </div>
+      </div>
+
+      <div class="divmain">
+        <img src="./imgGeme/magic.jpg" alt="Magic">
+        <div>
+          <h3>Magic: The Gathering Arena </h3>
+
+          <p>Es un juego free-to-play digital de cartas coleccionables desarrollado y
+            publicado por Wizards of the Coast. El juego es una adaptación digital del juego de cartas Magic: El
+            encuentro (MTG), que permite a los jugadores obtener cartas a través de paquetes de boosters, logros
+            alcanzados en el juego o compras de microtransacciones, y construir sus propios mazos para desafiar a otros
+            jugadores. Se le conoce comúnmente como MTG Arena, Magic Arena o simplemente Arena dentro del
+            contexto más amplio de Magic: The Gathering . El juego se lanzó en estado beta en noviembre de 2017 y se
+            lanzó por completo para los usuarios de Microsoft Windows en septiembre de 2019 y en macOS en junio de 2020.
+            Las versiones compatibles con el guardado cruzado para dispositivos móviles están previstas para finales de
+            2020</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="./imgGeme/mlbb.jpg" style="width:100%">
+          <div class="text"></div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">Machinarium</div>
+          <img src="./imgGeme/m.jpg" style="width:100%">
+          <div class="text"></div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="./imgGeme/magic.jpg" style="width:100%">
+          <div class="text"></div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">Ogame</div>
+          <img src="./imgGeme/ogame.png" style="width:100%">
+          <div class="text"></div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">Clash of clans</div>
+          <img src="./imgGeme/clas.webp" style="width:100%">
+          <div class="text"></div>
+        </div>
+
+      </div>
+      <br>
+
+      <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+
+      <script src="../../js/slide.js"></script>
+
+    </div>
+    <div class="footer">
+      <p>Mail: yessworkinf@gmail.com</p>
+    </div>
+  </div>
 </body>
+
 </html>

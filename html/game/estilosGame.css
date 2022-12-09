@@ -31,7 +31,7 @@ html {
 
 .slide {
     grid-area: slide;
-   
+
 }
 
 .footer {
@@ -39,7 +39,7 @@ html {
     grid-area: footer;
     background-color: #000;
     color: #f2f2f2;
- 
+
 }
 
 
@@ -50,9 +50,10 @@ html {
         background-image: url(./imgGeme/indemann.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-       
-       
+
+
     }
+
     .grid-container {
         display: grid;
         grid-template-areas:
@@ -62,10 +63,12 @@ html {
             'main '
             'footer ';
     }
+
     .header {
         text-align: right;
         padding: 3%;
     }
+
     .divmain {
         padding: 5%;
         width: 88vw;
@@ -85,24 +88,27 @@ html {
     h3 {
         padding: 3%;
     }
+
     .slideshow-container {
         width: 96vw;
     }
 
     .slideshow-container img {
-      opacity: 0.8;
+        opacity: 0.8;
 
     }
+
     .numbertext {
         color: #fff;
         font-size: 6vw;
         padding: 8px 2px 0 2%;
         top: 20%;
     }
-.footer p{
-text-align: right;
-padding: 3%;
-}
+
+    .footer p {
+        text-align: right;
+        padding: 3%;
+    }
 }
 
 @media only screen and (min-width: 801px) and (max-width: 3800px) {
@@ -112,22 +118,24 @@ padding: 3%;
         background-image: url(./imgGeme/game-console.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-       
-       
+
+
     }
+
     .grid-container {
-    display: grid;
-    grid-template-areas:
-        'header header '
-        'menu menu'
-        'main slide'
-        'footer footer';
-}
+        display: grid;
+        grid-template-areas:
+            'header header '
+            'menu menu'
+            'main slide'
+            'footer footer';
+    }
 
     .topnav {
-    padding-left: 10%;
-     
-     }
+        padding-left: 10%;
+
+    }
+
     .header {
         text-align: right;
         padding: 2% 2% 0 0;
@@ -139,41 +147,46 @@ padding: 3%;
         text-align: justify;
         margin: 5% 5% 6% 6%;
         display: flex;
-       
+
 
     }
 
     .divmain img {
         width: 15vw;
+        height: 20vw;
     }
 
     .divmain p,
     h3 {
         padding: 3%;
     }
+
     .slideshow-container {
-    width: 33vw;
-    position: sticky;
-    top: 50px;
-       opacity: 0.9;
+        width: 33vw;
+        position: sticky;
+        top: 50px;
+        opacity: 0.9;
 
-}
-.slideshow-container img {
-    padding: 3%;
+    }
 
-}
-.numbertext {
-    background-color: #000;
-    opacity: 0.9;
-    color: #fff;
-    font-size: 4vw;
-    margin: 5% 5% 1% 5%; 
-   
-}
-.footer{
-    text-align: right;
-    padding: 2% 2% 1% 0;
-}
+    .slideshow-container img {
+        padding: 3%;
+
+    }
+
+    .numbertext {
+        background-color: #000;
+        opacity: 0.9;
+        color: #fff;
+        font-size: 4vw;
+        margin: 5% 5% 1% 5%;
+
+    }
+
+    .footer {
+        text-align: right;
+        padding: 2% 2% 1% 0;
+    }
 
 
 }
@@ -260,7 +273,7 @@ padding: 3%;
     .topnav a:not(:first-child),
     .dropdown .dropbtn {
         display: none;
-        
+
     }
 
     .topnav a.icon {

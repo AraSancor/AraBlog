@@ -48,10 +48,11 @@ html a {
 }
 
 @media only screen and (min-width: 150px) and (max-width: 800px) {
-    
-    .header h3{
+
+    .header h3 {
         margin-left: 60%;
     }
+
     .main {
 
         background-image: url(../img/cloud-computing.png);
@@ -60,7 +61,8 @@ html a {
         width: 95vw;
         height: 100vw;
     }
-    .main a{
+
+    .main a {
         font-size: 5vw;
         display: block;
         cursor: pointer;
@@ -70,7 +72,8 @@ html a {
         margin: 5%;
         padding: 0 0 0 3%;
     }
-    .footer p{
+
+    .footer p {
         margin-left: 11%;
     }
 }
@@ -79,14 +82,16 @@ html a {
     body {
         color: aliceblue;
     }
+
     .topnav {
-   padding-left: 33%;
-    
+        padding-left: 33%;
+
     }
 
-    .header h3{
+    .header h3 {
         margin-left: 88%;
     }
+
     .main {
 
         background-image: url(../img/3key.png);
@@ -95,14 +100,15 @@ html a {
         width: 90vw;
         height: 45vw;
     }
-    .main a{
+
+    .main a {
         font-size: 2vw;
         display: block;
         cursor: pointer;
         color: #000;
         background-color: #fff;
         opacity: 0.3;
-        margin:  1% 0 0 60%;
+        margin: 1% 0 0 60%;
         padding: 1%;
     }
 }
