@@ -53,13 +53,15 @@ html {
     }
 
     .divmain {
+     
         margin: 2%;
         color: #000;
         background-color: aliceblue;
         opacity: 0.9;
-        padding: 2%;
+        padding: 5%;
     }
-    .divmain p {
+    .divmain p { 
+          text-align: justify;
         margin: 5%;
     }
     .divmain li,h3, h2 {
