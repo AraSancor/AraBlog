@@ -44,7 +44,43 @@
 
               </div>
         <div class="header">   <h2>Ara blog</h2></div>
-        <div class="main">Main</div>  
+        <div class="main">
+<div class="divmain">
+  <h1>Colección de codigos</h1>
+  <h2>JAVA</h2>
+  <P>    // Un método optimizado basado en Java
+// para comprobar si un número es compuesto o no.</P>
+  <P>
+
+class NumeroCompuesto
+{
+ <br>   static boolean esCompuesto(int n)
+ <br>   {
+ <br>       // Casos especiales 
+      <br>  if (n == 1)
+        <br>    System.out.println("Falso");
+      <br>  if (n == 3)
+     <br>       System.out.println("Falso");
+     <br>   // Esto se verifica para que podamos omitir
+     <br>   // los cinco números intermedios en el bucle inferior
+     <br>   if (n % 2 == 0 || n % 3 == 0) return true;
+    <br>    for (int i = 5; i * i <= n; i = i + 6)
+    <br>     if (n % i == 0 || n % (i + 2) == 0)
+      <br>          return true;
+      <br>  return false;
+    <br>}
+  <br>  public static void main(String args[])
+  <br>  {
+   <br>     System.out.println(esCompuesto(28) ?
+    <br>            "Sí, ¡El número es un número compuesto!" : "No es compuesto, es primo");
+    <br>    System.out.println(esCompuesto(19) ?
+    <br>            "Sí, ¡El número es un número compuesto!" : "No es compuesto, es primo");
+ <br>   }
+}
+  </P>
+</div>
+
+        </div>  
         <div class="aside">Right</div>
         <div class="footer">
 
