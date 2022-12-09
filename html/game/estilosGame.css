@@ -118,14 +118,14 @@ padding: 3%;
     .grid-container {
     display: grid;
     grid-template-areas:
-        'menu menu'
         'header header '
+        'menu menu'
         'main slide'
         'footer footer';
 }
 
     .topnav {
-    padding-left: 35%;
+    padding-left: 10%;
      
      }
     .header {
@@ -139,12 +139,12 @@ padding: 3%;
         text-align: justify;
         margin: 5% 5% 6% 6%;
         display: flex;
-        opacity: 0.9;
+       
 
     }
 
     .divmain img {
-        width: 10vw;
+        width: 15vw;
     }
 
     .divmain p,
@@ -155,13 +155,19 @@ padding: 3%;
     width: 33vw;
     position: sticky;
     top: 50px;
-    opacity: 0.8;
+       opacity: 0.9;
+
+}
+.slideshow-container img {
+    padding: 3%;
 
 }
 .numbertext {
+    background-color: #000;
+    opacity: 0.9;
     color: #fff;
-    font-size: 5vw;
-    margin: 5% 5% 0 33%; 
+    font-size: 4vw;
+    margin: 5% 5% 1% 5%; 
    
 }
 .footer{
@@ -254,6 +260,7 @@ padding: 3%;
     .topnav a:not(:first-child),
     .dropdown .dropbtn {
         display: none;
+        
     }
 
     .topnav a.icon {
