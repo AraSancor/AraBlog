@@ -84,23 +84,28 @@ html {
         color: #f9f9f9;
         padding: 1%;
         text-align: right;
-        opacity: 0.9;
+       
     }
 
     .divmain {
+        text-align: justify;
       margin: 3%;
         color: #000;
         background-color: aliceblue;
-        opacity: 0.9;
         padding: 3%;
     }
-
+.divmain p {
+    margin: 3%;
+}
+.divmain li {
+    margin: 1% 5% 1% 5%;
+}
     .aside {
         color: #000;
         background-color: aliceblue;
         position: sticky;
         top: 0;
-        opacity: 0.8;
+     
         
     }
     .aside a {
