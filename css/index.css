@@ -75,7 +75,14 @@ html a {
     .slide {
        opacity: 0.8;
     }
-
+.main p {
+    background-color: black;
+    color: #fff;
+    padding: 3%;
+    opacity: 0.7;
+    font-family: Comic;
+    font-size: 4vw;
+}
     .main img {
         width: 35vw;
         height: 28vw;
@@ -84,6 +91,7 @@ html a {
         background-color: #757679;
         padding: 2%;
    opacity: 0.9;
+
 
     }
 
@@ -170,6 +178,15 @@ html a {
         font-size: 5vw;
         margin: 5% 5% 0 33%; 
        
+    }
+    .main p {
+        background-color: rgb(34, 33, 33);
+        color: #fff;
+        padding: 1% 5% 1% 0;
+        opacity: 0.7;
+        text-align: right;
+        font-family: Comic;
+        font-size: 2vw;
     }
 
     .main img {  
