@@ -74,7 +74,6 @@ html {
         width: 88vw;
         background-color: #000;
         color: aliceblue;
-        text-align: justify;
         opacity: 0.8;
         margin: 5%;
     }
@@ -93,22 +92,26 @@ html {
         width: 96vw;
     }
 
-    .slideshow-container img {
-        opacity: 0.8;
-
+    .slideshow-container img{
+    height: 90vw;
     }
 
     .numbertext {
+        background-color: #000;
         color: #fff;
         font-size: 6vw;
         padding: 8px 2px 0 2%;
         top: 20%;
     }
-
+    .volver{
+  display: none;
+    }
+  
     .footer p {
         text-align: right;
         padding: 3%;
     }
+   
 }
 
 @media only screen and (min-width: 801px) and (max-width: 3800px) {
@@ -161,25 +164,36 @@ html {
         padding: 3%;
     }
 
-    .slideshow-container {
-        width: 33vw;
-        position: sticky;
-        top: 50px;
-        opacity: 0.9;
-
-    }
-
-    .slideshow-container img {
-        padding: 3%;
-
-    }
-
-    .numbertext {
-        background-color: #000;
-        opacity: 0.9;
-        color: #fff;
-        font-size: 4vw;
-        margin: 5% 5% 1% 5%;
+        .slideshow-container {
+            width: 33vw;
+            position: sticky;
+            top: 50px;
+            opacity: 0.9;
+    
+        }
+    
+        .slideshow-container img {
+            padding: 3%;
+            height: 33vw;
+        }
+    
+        .volver {
+            background-color: #000;
+            position: sticky;
+            top: 500px;
+        }
+        .volver a{
+            padding: 1%;
+          font-size: 2vw;
+          color: #fff;
+           text-decoration: none;
+        }
+        .numbertext {
+            background-color: #000;
+            opacity: 0.9;
+            color: #fff;
+            font-size: 4vw;
+            margin: 5% 5% 1% 5%;
 
     }
 
