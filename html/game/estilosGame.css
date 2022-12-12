@@ -87,7 +87,19 @@ html {
     h3 {
         padding: 3%;
     }
-
+.pc{
+    display: none;
+}
+.mobil{
+    margin: 2%;
+}
+.mobil a{
+    font-size: 5vw;
+    padding: 2%;
+    color: #fff;
+    background-color: rgb(138, 22, 22);
+    text-decoration: none;
+}
     .slideshow-container {
         width: 96vw;
     }
@@ -164,6 +176,16 @@ html {
         padding: 3%;
     }
 
+    .pc{
+        margin: 3%;
+    }
+    .pc a{
+        padding: 2%;
+        color: #000;
+        background-color: rgb(138, 22, 22);
+        text-decoration: none;
+    }
+.mobil{display: none;}
         .slideshow-container {
             width: 33vw;
             position: sticky;
