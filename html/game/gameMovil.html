@@ -14,7 +14,7 @@
   <div class="grid-container">
 
     <div class="header">
-      <h2>Ara Blog</h2>
+      <h2 id="arriba">Ara Blog</h2>
     </div>
     <div class="menu">
 
@@ -46,7 +46,7 @@
 
     <div class="main">
       <div class="divmain">
-        <img src="./imgGeme/m.jpg" alt="Machinarium">
+        <img src="./imgGeme/m.jpg" alt="Machinarium" id="mac">
         <div>
           <h3>Machinarium </h3>
 
@@ -69,7 +69,7 @@
       </div>
 
       <div class="divmain">
-        <img src="./imgGeme/clas.webp" alt="clashOfClans">
+        <img src="./imgGeme/clas.webp" alt="clashOfClans" id="cl">
         <div>
           <h3>Clash of Clans </h3>
 
@@ -82,13 +82,13 @@
             como las "Guerras de Clanes", los "Juegos del Clan" y las "Ligas de Guerras de clanes".</p>
 
             <div class="mobil">
-              <a href="https://clash-of-clans.uptodown.com/android" target="_blank">Jugar</a>
+              <a href="https://play.google.com/store/apps/details?id=com.supercell.clashofclans&gl=ES" target="_blank">Jugar</a>
             </div>
         </div>
       </div>
 
       <div class="divmain">
-        <img src="./imgGeme/ogame.jpg" alt="ogame">
+        <img src="./imgGeme/ogame.jpg" alt="ogame" id="og">
         <div>
           <h3>OGame </h3>
 
@@ -96,18 +96,21 @@
             Gameforge. El juego está implementado en el lenguaje de programación PHP, requiriendo únicamente un
             navegador común para poder jugarlo: dando una gran ventaja en el aspecto de los videojuegos, tan necesitados
             de ram y memorias específica. Cada escenario de juego, denominado Universo, permite que se enfrenten
-            simultáneamente hasta 16500 jugadores. El primer universo apareció en Alemania en 20021​, donde en 2007 fue
+            simultáneamente hasta 16500 jugadores. El primer universo apareció en Alemania en 2002, donde en 2007 fue
             el juego en línea más popular. Existen versiones en diferentes idiomas: español, inglés, francés, ruso,
             portugués, danés, alemán, croata, italiano, húngaro, neerlandés, noruego, polaco, rumano, esloveno,
             eslovaco, finés, sueco, turco, checo, griego, chino, japonés; es importante destacar que la versión en
             español se divide entre servidores de España, México y Argentina; la portuguesa entre Portugal y Brasil; y
             la inglesa entre Reino Unido y Estados Unidos. Asimismo, periódicamente se añaden nuevos servidores
             (universos) al juego.</p>
+            <div class="mobil">
+              <a href="https://play.google.com/store/apps/details?id=com.gameforge.ogame&gl=ES" target="_blank">Jugar</a>
+            </div>
         </div>
       </div>
 
       <div class="divmain">
-        <img src="./imgGeme/mlbb.jpg" alt="mlbb">
+        <img src="./imgGeme/mlbb.jpg" alt="mlbb" id="mlbb">
         <div>
           <h3>Mobile Legends: Bang Bang </h3>
 
@@ -115,11 +118,14 @@
             online (MOBA) desarrollado y publicado por Moonton, una filial de ByteDance. Lanzado en 2016, el juego se
             ha vuelto popular en el sureste de Asia y fue uno de los juegos seleccionados para el primer evento con
             medallas de Esports en los Juegos del Sudeste Asiático 2019 desarrollado en Filipinas.</p>
+            <div class="mobil">
+              <a href="https://play.google.com/store/apps/details?id=com.mobile.legends&gl=ES" target="_blank">Jugar</a>
+            </div>
         </div>
       </div>
 
       <div class="divmain">
-        <img src="./imgGeme/magic.jpg" alt="Magic">
+        <img src="./imgGeme/magic.jpg" alt="Magic" id="mag">
         <div>
           <h3>Magic: The Gathering Arena </h3>
 
@@ -132,6 +138,9 @@
             lanzó por completo para los usuarios de Microsoft Windows en septiembre de 2019 y en macOS en junio de 2020.
             Las versiones compatibles con el guardado cruzado para dispositivos móviles están previstas para finales de
             2020</p>
+            <div class="mobil">
+              <a href="https://play.google.com/store/apps/details?id=com.wizards.mtga&gl=ES" target="_blank">Jugar</a>
+            </div>
         </div>
       </div>
     </div>
@@ -141,32 +150,32 @@
 
         <div class="mySlides fade">
           <div class="numbertext"></div>
-          <img src="./imgGeme/mlbb.jpg" style="width:100%">
+          <a href="#mlbb"> <img src="./imgGeme/mlbb.jpg" style="width:100%"></a>
           <div class="text"></div>
         </div>
 
         <div class="mySlides fade">
           <div class="numbertext">Machinarium</div>
-          <img src="./imgGeme/m.jpg" style="width:100%">
+          <a href="#Mac"> <img src="./imgGeme/m.jpg" style="width:100%"></a>
           <div class="text"></div>
         </div>
 
         <div class="mySlides fade">
           <div class="numbertext"></div>
-          <img src="./imgGeme/magic.jpg" style="width:100%">
-          <div class="text"></div>
+          <a href="#mag">   <img src="./imgGeme/magic.jpg" style="width:100%"></a>
+         <div class="text"></div>
         </div>
 
         <div class="mySlides fade">
           <div class="numbertext">Ogame</div>
-          <img src="./imgGeme/ogame.png" style="width:100%">
+          <a href="#og"><img src="./imgGeme/ogame.png" style="width:100%"></a>
           <div class="text"></div>
         </div>
 
         <div class="mySlides fade">
           <div class="numbertext">Clash of clans</div>
-          <img src="./imgGeme/clas.webp" style="width:100%">
-          <div class="text"></div>
+          <a href="#Cl">    <img src="./imgGeme/clas.webp" style="width:100%"></a>
+         <div class="text"></div>
         </div>
 
       </div>
@@ -181,6 +190,7 @@
       </div>
 
       <script src="../../js/slide.js"></script>
+      <div class="volver"><a href="#arriba">subir al inicio</a></div>
 
     </div>
     <div class="footer">

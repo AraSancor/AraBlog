@@ -87,25 +87,29 @@ html {
     h3 {
         padding: 3%;
     }
-.pc{
-    display: none;
-}
-.mobil{
-    margin: 2%;
-}
-.mobil a{
-    font-size: 5vw;
-    padding: 2%;
-    color: #fff;
-    background-color: rgb(138, 22, 22);
-    text-decoration: none;
-}
+
+    .pc {
+        display: none;
+    }
+
+    .mobil {
+        margin: 2%;
+    }
+
+    .mobil a {
+        font-size: 5vw;
+        padding: 2%;
+        color: #fff;
+        background-color: rgb(138, 22, 22);
+        text-decoration: none;
+    }
+
     .slideshow-container {
         width: 96vw;
     }
 
-    .slideshow-container img{
-    height: 90vw;
+    .slideshow-container img {
+        height: 90vw;
     }
 
     .numbertext {
@@ -115,15 +119,16 @@ html {
         padding: 8px 2px 0 2%;
         top: 20%;
     }
-    .volver{
-  display: none;
+
+    .volver {
+        display: none;
     }
-  
+
     .footer p {
         text-align: right;
         padding: 3%;
     }
-   
+
 }
 
 @media only screen and (min-width: 801px) and (max-width: 3800px) {
@@ -176,46 +181,53 @@ html {
         padding: 3%;
     }
 
-    .pc{
+    .pc {
         margin: 3%;
     }
-    .pc a{
+
+    .pc a {
         padding: 2%;
         color: #000;
         background-color: rgb(138, 22, 22);
         text-decoration: none;
     }
-.mobil{display: none;}
-        .slideshow-container {
-            width: 33vw;
-            position: sticky;
-            top: 50px;
-            opacity: 0.9;
-    
-        }
-    
-        .slideshow-container img {
-            padding: 3%;
-            height: 33vw;
-        }
-    
-        .volver {
-            background-color: #000;
-            position: sticky;
-            top: 500px;
-        }
-        .volver a{
-            padding: 1%;
-          font-size: 2vw;
-          color: #fff;
-           text-decoration: none;
-        }
-        .numbertext {
-            background-color: #000;
-            opacity: 0.9;
-            color: #fff;
-            font-size: 4vw;
-            margin: 5% 5% 1% 5%;
+
+    .mobil {
+        display: none;
+    }
+
+    .slideshow-container {
+        width: 33vw;
+        position: sticky;
+        top: 50px;
+        opacity: 0.9;
+
+    }
+
+    .slideshow-container img {
+        padding: 3%;
+        height: 33vw;
+    }
+
+    .volver {
+        background-color: #000;
+        position: sticky;
+        top: 500px;
+    }
+
+    .volver a {
+        padding: 1%;
+        font-size: 2vw;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .numbertext {
+        background-color: #000;
+        opacity: 0.9;
+        color: #fff;
+        font-size: 5vw;
+        margin: 5% 5% 1% 5%;
 
     }
 
