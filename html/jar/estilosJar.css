@@ -185,8 +185,9 @@ form{
         padding: 1% 5%  1% 10%;
     }
     .main {
-        margin: 0 5% 0 5%;
-
+        margin: 0 4% 0 4%;
+        color: #D8E9A8;
+        background-color: #191A19;
     }
 
     .main img {
@@ -194,28 +195,25 @@ form{
     }
 
     .main ol, li {
-        color: #D8E9A8;
-        background-color: #191A19;
+   
         opacity: 0.9;
         padding: 1%;
         margin: 1% 7% 1% 7%;
     }
 .main p, h2, h3{
-    opacity: 0.9;
-    color: #D8E9A8;
-    background-color: #000;
+
+
     padding: 1% 1% 2% 10%;
 }
 .main p{
-    opacity: 0.9;
-    color: #D8E9A8;
-    background-color: #000;
-    padding: 1% 5% 2% 14%;
+ 
+ 
+    padding: 1% 5% 2% 12%;
 }
     .divmain {
-        color: #D8E9A8;
+      
         display: flex;
-        background-color: #000;
+        
         opacity: 0.8;
     }
     .divmain {
