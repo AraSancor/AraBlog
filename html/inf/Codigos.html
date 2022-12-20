@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Codigos</title>
+    <title>CodigosJava</title>
+    <link rel="icon" type="image/x-icon" href="./imgInf/java.png">
     <link rel="stylesheet" href="./infestilos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -26,7 +27,6 @@
                       </button>
                       <div class="dropdown-content">
                         <a href="./CiberSer.html" >Ciberseguridad</a>
-                        <a href="./Codigos.html" >Codigos</a>
                         <a href="Desarrolladores.html">Desarrolladores</a>
                         <a href="./Plantillas.html" >Plantillas</a>
                         <a href="./Script.html">Script</a>
@@ -46,42 +46,55 @@
         <div class="header">   <h2>Ara blog</h2></div>
         <div class="main">
 <div class="divmain">
-  <h1>Colección de codigos</h1>
+  <h1>Colección de codigos Java</h1>
   <h2>JAVA</h2>
+
+ <p>// Primer programa</p> 
+<p>class HelloWorld {</p>
+<p> public static void main(String[] args) {</p>
+   <p> System.out.println("Hello, World!"); </p>
+     <p>}</p>  
+    
+
+<hr>
+
+
   <P>    // Un método optimizado basado en Java
 // para comprobar si un número es compuesto o no.</P>
   <P>
+<p>class NumeroCompuesto {</p>
+<p> static boolean esCompuesto(int n) {</p>
+<p> // Casos especiales </p>
+<p>if (n == 1)</p>
+<p>System.out.println("Falso");</p>
+<p>if (n == 3)</p>
+<p>  System.out.println("Falso");</p>
+<p>// Esto se verifica para que podamos omitir</p>
+<p> // los cinco números intermedios en el bucle inferior</p>
+<p>if (n % 2 == 0 || n % 3 == 0) return true;</p>
+<p> for (int i = 5; i * i &lt;= n; i = i + 6)</p>
+<p>  if (n % i == 0 || n % (i + 2) == 0)</p>
+<p>return true;</p>
+<p> return false;</p>
+<p>}</p>
+<p>public static void main(String args[])</p>
+<p> {</p>
+<p> System.out.println(esCompuesto(28) ?</p>
+<p>"Sí, ¡El número es un número compuesto!" : "No es compuesto, es primo");</p>
+<p> System.out.println(esCompuesto(19) ?</p>
+<p>      "Sí, ¡El número es un número compuesto!" : "No es compuesto, es primo");</p>
+     
+ <p> }</p>  
+ <p>}</p>
+<p>Salida:
 
-class NumeroCompuesto
-{
- <br>   static boolean esCompuesto(int n)
- <br>   {
- <br>       // Casos especiales 
-      <br>  if (n == 1)
-        <br>    System.out.println("Falso");
-      <br>  if (n == 3)
-     <br>       System.out.println("Falso");
-     <br>   // Esto se verifica para que podamos omitir
-     <br>   // los cinco números intermedios en el bucle inferior
-     <br>   if (n % 2 == 0 || n % 3 == 0) return true;
-    <br>    for (int i = 5; i * i <= n; i = i + 6)
-    <br>     if (n % i == 0 || n % (i + 2) == 0)
-      <br>          return true;
-      <br>  return false;
-    <br>}
-  <br>  public static void main(String args[])
-  <br>  {
-   <br>     System.out.println(esCompuesto(28) ?
-    <br>            "Sí, ¡El número es un número compuesto!" : "No es compuesto, es primo");
-    <br>    System.out.println(esCompuesto(19) ?
-    <br>            "Sí, ¡El número es un número compuesto!" : "No es compuesto, es primo");
- <br>   }
-}
-  </P>
+  Sí, ¡El número es un número compuesto!
+  No es compuesto, es primo</p>
+ 
 </div>
 
         </div>  
-        <div class="aside">Right</div>
+       
         <div class="footer">
 
           <p>Mail: yessworkinf@gmail.com</p>
