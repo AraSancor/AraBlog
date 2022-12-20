@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
 
     <link rel="stylesheet" href="./estilosJar.css">
 </head>
+
 <body>
     <div class="grid-container">
         <div class="menu">
@@ -17,19 +19,19 @@
 
 
                 <div class="dropdown">
-                    <button class="dropbtn" >Jardineria
+                    <button class="dropbtn">Jardineria
                         <i class="fa fa-caret-down"></i>
                     </button>
                     <div class="dropdown-content">
-                        
-                        <a href="Cultivodechiles.html" >Cultivo de chiles</a>
-                        <a href="Inviernoplantas.html" >PlantasEnInvierno</a>
-                        <a href="cultivoNopla.html" >Todo sobre el nopal</a>
+
+                        <a href="Cultivodechiles.html">Cultivo de chiles</a>
+                        <a href="Inviernoplantas.html">PlantasEnInvierno</a>
+                        <a href="cultivoNopla.html">Todo sobre el nopal</a>
                     </div>
                 </div>
-                <a href="../Informatica.html" >Informatica</a>
-                <a href="../Gamezone.html" >Gamezone</a>
-                <a href="../recetas.html" >Recetas</a>
+                <a href="../Informatica.html">Informatica</a>
+                <a href="../Gamezone.html">Gamezone</a>
+                <a href="../recetas.html">Recetas</a>
 
 
                 <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
@@ -37,16 +39,7 @@
 
 
 
-            <script>
-                function myFunction() {
-                    var x = document.getElementById("myTopnav");
-                    if (x.className === "topnav") {
-                        x.className += " responsive";
-                    } else {
-                        x.className = "topnav";
-                    }
-                }
-            </script>
+            <script src="../../js/menu.js"></script>
         </div>
 
 
@@ -54,14 +47,13 @@
         <div class="header">
 
             <div class="flex">
-             
-                <img src="" alt="">
-<div>   <h1>Cuidado de plantas en invierno</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Assumenda ea fugit rem voluptas, numquam consequuntur aperiam
-         accusamus quisquam nemo id libero. Nihil soluta, suscipit harum 
-         modi ullam aliquid accusantium vel.</p>
-</div>
+
+                <img src="./imgbio/avocado.jpg" alt="">
+                <div>
+                    <h1>Aguacate</h1>
+                    <p><i>Oro verde o aguacate, además de su gran sabor posé múltiples benéficos.</i>
+                    </p>
+                </div>
 
             </div>
 
@@ -69,14 +61,89 @@
         </div>
 
         <div class="main">
-            <h2>lorem</h2>
 
-          
+            <div>
 
-            
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">Propiedades y beneficios del aguacate:
+                            Mejora el funcionamiento del sistema nervioso y muscular. Gracias al contenido de magnesio y
+                            potasio.</div>
+                        <img src="./imgbio/foodAgua.jpg" style="width:100%">
+                        <div class="text"></div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">Propiedades y beneficios del aguacate:
+                            Es bueno para el sistema inmunológico.</div>
+                        <img src="./imgbio/sushi.jpg" style="width:100%">
+                        <div class="text"></div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">Propiedades y beneficios del aguacate:
+                            Contribuye a reducir el colesterol.</div>
+                        <img src="./imgbio/avocadoes.jpg" style="width:100%">
+                        <div class="text"></div>
+                    </div>
+
+                </div>
+                <br>
+
+                <div style="text-align:center">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+
+                <script src="../../js/slide.js"></script>
+            </div>
+
+            <h3> Propiedades y beneficios del aguacate</h3>
+
+            <p>Mejora el funcionamiento del sistema nervioso y muscular. Gracias al contenido de magnesio y potasio.</p>
+            <p>Es bueno para el sistema inmunológico.</p>
+            <p>Tiene efectos antioxidantes.</p>
+            <p>Perfecto ara el cerebro.</p>
+            <p>Beneficioso para los huesos.</p>
+            <p>Es un alimento saciante.</p>
+            <p>Contribuye a reducir el colesterol.</p>
 
 
-        </div>
+
+
+            <h2>Germinar una semilla de aguacate</h2>
+
+            <p>Para hacer que germine una semilla de aguacate necesitamos una semilla de aguacate fresca, un baso no muy
+                ancho, solo lo suficiente para que entre la semilla, lo siguiente es ponerle agua, que cubra solo la
+                mitad de la semilla,
+                cada tercer día tenemos que cambiar el agua, tarda de dos semanas a un mes en brotar.</p>
+
+
+            <h2>Plantar el brote</h2>
+            <form>
+                <h3> ¿Qué necesitamos?</h3>
+                <br>
+                <input type="checkbox" id="pr" name="pr" value="p">
+                <label for="pr">La semilla</label><br>
+                <input type="checkbox" id="pb" name="pb" value="p2">
+                <label for="pb"> Tierra</label><br>
+                <input type="checkbox" id="b" name="b" value="b1">
+                <label for="b">Maceta pequeña</label><br>
+
+
+            </form>
+            <p>Para plantar la semilla de aguacate una vez que tiene un brote, tenemos que poner la semilla dentro de la
+                maceta con tierra, se coloca la semilla en el centro de la maceta con una profundidad no mayor a 5
+                centímetros, con el brote hacia arriba, ese brote se convertirá en el tronco de la planta, Tarda aproximadamente dos a tres semanas o un año en salir la planta si se ha sembrado en otoño</p>
+
+<h3>Cuidados</h3>
+<p>El aguacate es una planta que requiere de muchos cuidados el principal es la temperatura., En invierno no tolera temperaturas inferiores a 15 C.</p>
+       <p>Es necesario en invierno proteger esta planta con una manta térmica o plástico si este le permite el flujo de aire.</p> 
+
+<p>Continuara!!...</p>
+</div>
 
         <div class="footer">
             <p>Mail: yessworkinf@gmail.com</p>
