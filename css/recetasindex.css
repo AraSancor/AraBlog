@@ -58,10 +58,11 @@ html a {
 
 
     body {
-        background-image: url(../img/spice.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+
+        background-color: black;
+    
+    
+        }
 
     .grid-container {
         display: grid;
@@ -141,10 +142,11 @@ html a {
 @media only screen and (min-width: 801px) and (max-width: 3800px) {
 
     body {
-        background-image: url(../img/herbs.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+
+        background-color: black;
+    
+    
+        }
 
     .grid-container {
         display: grid;
