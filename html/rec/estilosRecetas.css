@@ -90,8 +90,8 @@ html a {
         border: 1px solid #fff;
      }
      th, td {
-        
-        width: 25%;
+        border: 1px solid #fff;
+        width: 30%;
      }
     .header {
 
