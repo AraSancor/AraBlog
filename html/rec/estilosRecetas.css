@@ -14,6 +14,7 @@ html a {
     text-decoration: none;
 }
 
+
 .menu {
     grid-area: menu;
 
@@ -84,7 +85,14 @@ html a {
     .topnav {
         padding: 0 3% 0 0;
     }
-
+    table {
+        width: 100%;
+        border: 1px solid #fff;
+     }
+     th, td {
+        
+        width: 25%;
+     }
     .header {
 
         padding-top: 2%;
@@ -213,6 +221,15 @@ html a {
 
         padding-left: 30%;
     }
+
+    table {
+        width: 50%;
+        border: 1px solid #fff;
+     }
+     th, td {
+        
+        width: 25%;
+     }
 
     .header {
         font-size: 1.5vw;
@@ -420,3 +437,4 @@ html a {
         text-align: left;
     }
 }
+
