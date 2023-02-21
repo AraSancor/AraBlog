@@ -141,18 +141,13 @@ html a {
             'main '
             'slide'
             'footer';
-
     }
 
     body {
-
         background-color: black;
-    
-    
-        }
+       }
 
     .header {
-      
         background-color: rgb(21, 20, 22);
         color: #bbb;
         grid-gap: 3%;
@@ -162,7 +157,6 @@ html a {
     .header img {
         width: 3vw;
         border-radius: 50%;
-
     }
 
     .header h1 {
@@ -173,7 +167,6 @@ html a {
         width: 45vw;
         opacity: 0.9;
     }
-
     .slideshow-container img {
         margin: 0 0 0 90%;
         border-radius: 1px 60px;
