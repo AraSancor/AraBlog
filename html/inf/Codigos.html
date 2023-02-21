@@ -1,104 +1,140 @@
-
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CodigosJava</title>
-    <link rel="icon" type="image/x-icon" href="./imgInf/java.png">
-    <link rel="stylesheet" href="./infestilos.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodigosJava</title>
+  <link rel="icon" type="image/x-icon" href="./imgInf/java.png">
+  <link rel="stylesheet" href="./infestilos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
-    <div class="grid-container">
-              <div class="menu">
+  <div class="grid-container">
+    <div class="menu">
 
-                <div class="topnav" id="myTopnav">
-                    <a href="../../index.html">Inicio</a>
-                    
-                    <a href="../Gamezone.html" >Gamezone</a>
-                    <a href="../Jardineria.html">Jardineria</a>
-                    <a href="../recetas.html" >Recetas</a>
-            
-                <div class="dropdown">
-                      <button class="dropbtn" >List
-                        <i class="fa fa-caret-down"></i>
-                      </button>
-                      <div class="dropdown-content">
-                        <a href="./CiberSer.html" >Ciberseguridad</a>
-                        <a href="Desarrolladores.html">Desarrolladores</a>
-                        <a href="./Plantillas.html" >Plantillas</a>
-                        <a href="./Script.html">Script</a>
-                       
-                        <a href="https://www.sololearn.com/profile/20814628" target="_blank">SoloLearn</a>
-                      </div>
-                    </div>
-            
-                    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-                  </div>
-            
-            
-            <script src="../../js/menu.js"></script>
-            
+      <div class="topnav" id="myTopnav">
+        <a href="../../index.html">Inicio</a>
 
-              </div>
-        <div class="header">   <h2>Ara blog</h2></div>
-        <div class="main">
-<div class="divmain">
-  <h1>Colección de codigos Java</h1>
-  <h2>JAVA</h2>
+        <a href="../Gamezone.html">Gamezone</a>
+        <a href="../Jardineria.html">Jardineria</a>
+        <a href="../recetas.html">Recetas</a>
 
- <p>// Primer programa</p> 
-<p>class HelloWorld {</p>
-<p> public static void main(String[] args) {</p>
-   <p> System.out.println("Hello, World!"); </p>
-     <p>}</p>  
-    
+        <div class="dropdown">
+          <button class="dropbtn">List
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="./CiberSer.html">Ciberseguridad</a>
+            <a href="Desarrolladores.html">Desarrolladores</a>
+            <a href="./Plantillas.html">Plantillas</a>
+            <a href="./Script.html">Script</a>
 
-<hr>
-
-
-  <P>    // Un método optimizado basado en Java
-// para comprobar si un número es compuesto o no.</P>
-  <P>
-<p>class NumeroCompuesto {</p>
-<p> static boolean esCompuesto(int n) {</p>
-<p> // Casos especiales </p>
-<p>if (n == 1)</p>
-<p>System.out.println("Falso");</p>
-<p>if (n == 3)</p>
-<p>  System.out.println("Falso");</p>
-<p>// Esto se verifica para que podamos omitir</p>
-<p> // los cinco números intermedios en el bucle inferior</p>
-<p>if (n % 2 == 0 || n % 3 == 0) return true;</p>
-<p> for (int i = 5; i * i &lt;= n; i = i + 6)</p>
-<p>  if (n % i == 0 || n % (i + 2) == 0)</p>
-<p>return true;</p>
-<p> return false;</p>
-<p>}</p>
-<p>public static void main(String args[])</p>
-<p> {</p>
-<p> System.out.println(esCompuesto(28) ?</p>
-<p>"Sí, ¡El número es un número compuesto!" : "No es compuesto, es primo");</p>
-<p> System.out.println(esCompuesto(19) ?</p>
-<p>      "Sí, ¡El número es un número compuesto!" : "No es compuesto, es primo");</p>
-     
- <p> }</p>  
- <p>}</p>
-<p>Salida:
-
-  Sí, ¡El número es un número compuesto!
-  No es compuesto, es primo</p>
- 
-</div>
-
-        </div>  
-       
-        <div class="footer">
-
-          <p>Mail: yessworkinf@gmail.com</p>
+            <a href="https://www.sololearn.com/profile/20814628" target="_blank">SoloLearn</a>
+          </div>
         </div>
+
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
       </div>
+
+
+      <script src="../../js/menu.js"></script>
+
+
+    </div>
+    <div class="header">
+      <h2>Ara blog</h2>
+    </div>
+    <div class="main">
+
+      <div class="divmain">
+        <h1>Colección de codigos</h1>
+      </div>
+
+      <div class="divmain">
+
+        <h2>JAVA</h2>
+
+        <p>// Primer programa</p>
+        <p>class HelloWorld {</p>
+        <p> public static void main(String[] args) {</p>
+        <p> System.out.println("Hello, World!"); </p>
+        <p>}</p>
+
+
+        <hr>
+
+
+        <P> // Un método optimizado basado en Java
+          // para comprobar si un número es compuesto o no.</P>
+        <P>
+        <p>class NumeroCompuesto {</p>
+        <p> static boolean esCompuesto(int n) {</p>
+        <p> // Casos especiales </p>
+        <p>if (n == 1)</p>
+        <p>System.out.println("Falso");</p>
+        <p>if (n == 3)</p>
+        <p> System.out.println("Falso");</p>
+        <p>// Esto se verifica para que podamos omitir</p>
+        <p> // los cinco números intermedios en el bucle inferior</p>
+        <p>if (n % 2 == 0 || n % 3 == 0) return true;</p>
+        <p> for (int i = 5; i * i &lt;= n; i = i + 6)</p>
+        <p> if (n % i == 0 || n % (i + 2) == 0)</p>
+        <p>return true;</p>
+        <p> return false;</p>
+        <p>}</p>
+        <p>public static void main(String args[])</p>
+        <p> {</p>
+        <p> System.out.println(esCompuesto(28) ?</p>
+        <p>"Sí, ¡El número es un número compuesto!" : "No es compuesto, es primo");</p>
+        <p> System.out.println(esCompuesto(19) ?</p>
+        <p> "Sí, ¡El número es un número compuesto!" : "No es compuesto, es primo");</p>
+
+        <p> }</p>
+        <p>}</p>
+        <p>Salida:
+
+          Sí, ¡El número es un número compuesto!
+          No es compuesto, es primo</p>
+
+      </div>
+
+      <div class="divmain">
+ 
+        <h2>PHP</h2>
+
+        <p>&lt;?php</p>
+        <p>function contadorvisitas()</p>
+        <p>{</p>
+        <p> $archivo = "contadorvisitas.txt"; //el archivo de texto que contendra las visitas</p>
+        <p> $f = fopen($archivo, "r"); //abrimos el fichero en modo de lectura</p>
+        <p> if($f)</p>
+        <p>{</p>
+        <p>$contadorvisitas = fread($f, filesize($archivo)); //vemos el archivo de texto</p>
+        <p> $contadorvisitas = $contadorvisitas + 1; //Le sumamos +1 al contador de visitas</p>
+        <p> fclose($f);</p>
+        <p> }</p>
+        <p>$f = fopen($archivo, "w+");</p>
+        <p> if($f)</p>
+        <p> {</p>
+        <p>fwrite($f, $contadorvisitas);</p>
+        <p> fclose($f);</p>
+        <p> }</p>
+        <p> return $contadorvisitas;</p>
+        <p>}</p>
+        <p>?&gt;</p>
+
+
+      </div>
+    </div>
+
+    <div class="footer">
+
+      <p>Mail: yessworkinf@gmail.com</p>
+    </div>
+  </div>
 </body>
+
 </html>
