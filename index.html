@@ -13,6 +13,7 @@
 <body>
 
 <!--inicio del contador-->
+<?php
 $archivo = "archivo.txt";
         $contador = intval(trim(file_get_contents($archivo)));
  
@@ -23,8 +24,8 @@ $archivo = "archivo.txt";
         echo '<div style="position:fixed;bottom:20px;z-index:9;right:20px;background: #ff5a19;padding: 2px 10px;color: #fff;font-size: 30px;border-radius: 20px;">'. fgets($file). '</div>' ;
         fclose($file);
 
-
-<!--fin del contador-->
+?>
+        <!--fin del contador-->
     <div class="grid-container">
 
         <div class="header">
