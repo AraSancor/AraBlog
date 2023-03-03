@@ -11,6 +11,21 @@
 </head>
 
 <body>
+
+<!--inicio del contador-->
+<?php
+$archivo = "archivo.txt";
+$contador = intval(trim(file_get_contents($archivo)));
+
+$file = fopen($archivo, "w");
+fwrite($file, $contador+1 . PHP_EOL);
+
+$file = fopen($archivo, "r");
+echo fgets($file);
+fclose($file);
+?>
+
+<!--fin del contador-->
     <div class="grid-container">
 
         <div class="header">
