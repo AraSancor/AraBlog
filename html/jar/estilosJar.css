@@ -6,15 +6,17 @@
 body,
 html {
     font-family: sans-serif;
-    }
+}
 
 html a {
     text-decoration: none;
 }
-form{
+
+form {
 
     margin-left: 10%;
 }
+
 .menu {
     grid-area: menu;
     position: sticky;
@@ -55,7 +57,7 @@ form{
     .topnav {
         padding: 0 3% 0 0;
     }
-  
+
 
     .header img {
         margin: 2% 1% 0 20%;
@@ -64,7 +66,7 @@ form{
         border-radius: 50%;
     }
 
- 
+
 
     .flex p,
     h1 {
@@ -73,7 +75,7 @@ form{
     }
 
     .flex2 {
-  
+
         padding: 1% 2% 0 23%;
         background-color: #4E9F3D;
         font-size: 3vw;
@@ -86,24 +88,27 @@ form{
         color: #D8E9A8;
         border-radius: 5px;
     }
-    form{
+
+    form {
 
         margin-left: 10%;
     }
+
     .main {
         background-color: #191A19;
         color: #D8E9A8;
         margin: 1% 3% 4% 3%;
     }
-  .main a{
-    padding: 2%;
- margin: 5%;
-    color: #D8E9A8;
-    text-decoration: none;
-     background-color: rgb(83, 14, 14);
-  }
 
-   
+    .main a {
+        padding: 2%;
+        margin: 5%;
+        color: #D8E9A8;
+        text-decoration: none;
+        background-color: rgb(83, 14, 14);
+    }
+
+
     .numbertext {
         background-color: #191A19;
         color: #fff;
@@ -112,21 +117,28 @@ form{
         padding: 1%;
         opacity: 0.8;
     }
-    
+
     .main img {
-      
+
         width: 50vw;
     }
 
-    .main ol, li, h2, h3, p {
-        
+    .main ol,
+    li,
+    h2,
+    h3,
+    p {
+
         padding: 1%;
         margin: 1% 7% 4% 7%;
     }
 
-   
-    .divmain{display: block;}
-    .divmain img{
+
+    .divmain {
+        display: block;
+    }
+
+    .divmain img {
         display: none;
     }
 
@@ -156,7 +168,7 @@ form{
         padding-left: 30%;
     }
 
-   
+
 
     .header img {
         margin: 2% 2% 2% 5%;
@@ -195,24 +207,23 @@ form{
         color: #D8E9A8;
         border-radius: 5px;
     }
-    form{
-        background-color: #191A19;
-        color: #D8E9A8;
-        margin: 1%;
-        padding: 1% 5%  1% 10%;
-    }
+
+   
+
     .main {
         margin: 0 4% 0 4%;
         color: #D8E9A8;
         background-color: #191A19;
     }
-    .main a{
+
+    .main a {
         padding: 2%;
- 
+
         color: #D8E9A8;
         text-decoration: none;
-         background-color: rgb(83, 14, 14);
-      }
+        background-color: rgb(83, 14, 14);
+    }
+
     .numbertext {
         background-color: #191A19;
         color: #fff;
@@ -222,32 +233,40 @@ form{
         opacity: 0.8;
 
     }
+
     .main img {
         width: 20vw;
     }
 
-    .main ol, li {
-   
+    .main ol,
+    li {
+
         opacity: 0.9;
         padding: 1%;
         margin: 1% 7% 1% 7%;
     }
-.main p, h2, h3{
+
+    .main p,
+    h2,
+    h3 {
 
 
-    padding: 1% 1% 2% 10%;
-}
-.main p{
- 
- 
-    padding: 1% 5% 2% 12%;
-}
+        padding: 1% 1% 2% 10%;
+    }
+
+    .main p {
+
+
+        padding: 1% 5% 2% 12%;
+    }
+
     .divmain {
-      
+
         display: flex;
-        
+
         opacity: 0.8;
     }
+
     .divmain {
         grid-gap: 5%;
     }
